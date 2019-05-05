@@ -1,0 +1,27 @@
+{
+  "HandleTopEnemyBlockCollision": "AllocatePointsWithIndicator",
+  "HandleLeftEnemyShellCollision": "AllocateConsecutivePoints",
+  "HandleRightEnemyShellCollision": "AllocateConsecutivePoints",
+
+  "HandleTopPlayerEnemyCollision": "AllocateConsecutivePoints",
+  "HandleFlippingPlayerEnemyCollision": "AllocatePointsWithIndicator",
+  "HandleDisarmingPlayerEnemyCollision": "AllocateConsecutivePoints",
+  "HandleTopPlayerShellCollision": "AllocateConsecutivePoints",
+  "HandleLeftPlayerShellCollision": "AllocatePointsWithIndicator",
+  "HandleRightPlayerShellCollision": "AllocatePointsWithIndicator",
+
+  "HandlePlayerFireFlowerCollision": "AllocatePointsWithIndicator",
+  "HandlePlayerGreenMushroomCollision": "AllocatePointsWithIndicator",
+  "HandlePlayerRedMushroomCollision": "AllocatePointsWithIndicator",
+  "HandlePlayerStarCollision": "AllocatePointsWithIndicator",
+  "HandleBlinkingPlayerRedMushroomCollision": "AllocatePointsWithIndicator",
+  "HandleBlinkingPlayerFireFlowerCollision": "AllocatePointsWithIndicator",
+  "HandleBlinkingPlayerStarCollision": "AllocatePointsWithIndicator",
+  "HandlePlayerFlagpoleCollision": "AllocateFlagpolePoints",
+  "HandleNonUpgradingPlayerPowerUpCollision": "AllocatePointsWithIndicator",
+
+  "GoombaFireball": "AllocatePointsWithIndicator",
+  "KoopaFireball": "AllocatePointsWithIndicator",
+  "FireballGoomba": "AllocatePointsWithIndicator",
+  "FireballKoopa": "AllocatePointsWithIndicator"
+}

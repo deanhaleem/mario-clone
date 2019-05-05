@@ -1,0 +1,49 @@
+{
+  "HandleBottomPlayerBlockCollision": "bump",
+  "HandleBottomNonSmallPlayerPowerUpBlockCollision": "bump",
+  "HandleBottomPlayerHiddenBlockCollision": "bump",
+  "HandleDestroyingPlayerBlockCollision": "break",
+
+  "HandleTopPlayerEnemyCollision": "stomp",
+  "HandleFlippingPlayerEnemyCollision": "kick",
+  "HandleDisarmingPlayerEnemyCollision": "stomp",
+  "HandleTopPlayerShellCollision": "kick",
+  "HandleLeftPlayerShellCollision": "kick",
+  "HandleRightPlayerShellCollision": "kick",
+
+  "HandlePlayerGreenMushroomCollision": "1-up",
+  "HandlePlayerNonSpinningCoinCollision": "coin",
+  "SpinningCoin": "coin",
+
+  "Timer": "warning",
+
+  "HandleTopEnemyBlockCollision": "kick",
+  "HandleLeftEnemyShellCollision": "kick",
+  "HandleRightEnemyShellCollision": "kick",
+
+  "EnemyProjectileCollisionResponder": "kick",
+
+  "SpawningItemState": "spawn",
+  "CreateRightProjectile": "fireball",
+  "CreateLeftProjectile": "fireball",
+
+  "SmallPowerUpStateLeftJumpingActionState": "small-jump",
+  "SmallPowerUpStateRightJumpingActionState": "small-jump",
+  "BigPowerUpStateLeftJumpingActionState": "super-jump",
+  "BigPowerUpStateRightJumpingActionState": "super-jump",
+  "FirePowerUpStateLeftJumpingActionState": "super-jump",
+  "FirePowerUpStateRightJumpingActionState": "super-jump",
+
+  "DeadActionState": "die",
+
+  "LeftDowngradingActionState": "pipe",
+  "RightDowngradingActionState": "pipe",
+  "LeftUpgradingActionState": "powerup",
+  "RightUpgradingActionState": "powerup",
+
+  "PausedGameState": "pause",
+  "WarpingGameState": "pipe",
+  "GameOverGameState": "gameover",
+  "VictoryGameState": "flagpole",
+  "AllowPlayerToWalkToCastle": "complete"
+}

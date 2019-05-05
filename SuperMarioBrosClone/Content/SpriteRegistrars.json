@@ -1,0 +1,3929 @@
+{
+  "DeadMario": {
+    "LayerDepth": 0.99,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {"X": 183, "Y": 34, "Width": 14, "Height": 14}
+      ]
+    },
+    "Sizes": [
+      {"X": 0, "Y": 0}
+    ]
+  },
+
+  "BigRightCrouchingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {"X": 182, "Y": 11, "Width": 16, "Height": 22}
+      ]
+    },
+    "Sizes": [
+      {"X": 16, "Y": 22}
+    ]
+  },
+
+  "BigLeftCrouchingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {"X": 696, "Y": 11, "Width": 16, "Height": 22}
+      ]
+    },
+    "Sizes": [
+      {"X": 16, "Y": 22}
+    ]
+  },
+
+  "BigRightJumpingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {"X": 165, "Y": 1, "Width": 16, "Height": 32}
+      ]
+    },
+    "Sizes": [
+      {"X": 16, "Y": 32}
+    ]
+  },
+
+  "BigLeftJumpingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {"X": 713, "Y": 1, "Width": 16, "Height": 32}
+      ]
+    },
+    "Sizes": [
+      {"X": 16, "Y": 32}
+    ]
+  },
+
+  "BigRightStandingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {"X": 80, "Y": 1, "Width": 16, "Height": 32}
+      ]
+    },
+    "Sizes": [
+      {"X": 16, "Y": 32}
+    ]
+  },
+
+  "BigLeftStandingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {"X": 798, "Y": 1, "Width": 16, "Height": 32}
+      ]
+    },
+    "Sizes": [
+      {"X": 16, "Y": 32}
+    ]
+  },
+
+  "BigRightSlidingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {"X": 148, "Y": 1, "Width": 16, "Height": 32}
+      ]
+    },
+    "Sizes": [
+      {"X": 16, "Y": 32}
+    ]
+  },
+
+  "BigLeftSlidingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {"X": 730, "Y": 1, "Width": 16, "Height": 32}
+      ]
+    },
+    "Sizes": [
+      {"X": 16, "Y": 32}
+    ]
+  },
+
+  "BigRightWalkingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 5,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {"X": 97, "Y": 3, "Width": 16, "Height": 30},
+        {"X": 115, "Y": 2, "Width": 14, "Height": 31},
+        {"X": 131, "Y": 1, "Width": 16, "Height": 32}
+      ]
+    },
+    "Sizes": [
+      {"X": 16, "Y": 30},
+      {"X": 14, "Y": 31},
+      {"X": 16, "Y": 32}
+    ]
+  },
+
+  "BigLeftWalkingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 5,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {"X": 781, "Y": 3, "Width": 16, "Height": 30},
+        {"X": 765, "Y": 2, "Width": 14, "Height": 31},
+        {"X": 747, "Y": 1, "Width": 16, "Height": 32}
+      ]
+    },
+    "Sizes": [
+      {"X": 16, "Y": 30},
+      {"X": 14, "Y": 31},
+      {"X": 16, "Y": 32}
+    ]
+  },
+
+  "BigRightRunningMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 3,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {"X": 97, "Y": 3, "Width": 16, "Height": 30},
+        {"X": 115, "Y": 2, "Width": 14, "Height": 31},
+        {"X": 131, "Y": 1, "Width": 16, "Height": 32}
+      ]
+    },
+    "Sizes": [
+      {"X": 16, "Y": 30},
+      {"X": 14, "Y": 31},
+      {"X": 16, "Y": 32}
+    ]
+  },
+
+  "BigLeftRunningMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 3,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {"X": 781, "Y": 3, "Width": 16, "Height": 30},
+        {"X": 765, "Y": 2, "Width": 14, "Height": 31},
+        {"X": 747, "Y": 1, "Width": 16, "Height": 32}
+      ]
+    },
+    "Sizes": [
+      {"X": 16, "Y": 30},
+      {"X": 14, "Y": 31},
+      {"X": 16, "Y": 32}
+    ]
+  },
+
+  "BigRightUpgradingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 8,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {"X": 335, "Y": 9, "Width": 16, "Height": 24},
+        {"X": 82, "Y": 34, "Width": 12, "Height": 16}
+      ]
+    },
+    "Sizes": [
+      {"X": 0, "Y": 0},
+      {"X": 0, "Y": 0}
+    ]
+  },
+
+  "BigLeftUpgradingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 8,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {"X": 543, "Y": 9, "Width": 16, "Height": 24},
+        {"X": 800, "Y": 34, "Width": 12, "Height": 16}
+      ]
+    },
+    "Sizes": [
+      {"X": 0, "Y": 0},
+      {"X": 0, "Y": 0}
+    ]
+  },
+
+  "BigRightVictoryMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {"X": 218, "Y": 3, "Width": 14, "Height": 27}
+      ]
+    },
+    "Sizes": [
+      {"X": 14, "Y": 27}
+    ]
+  },
+
+  "BigLeftVictoryMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {"X": 662, "Y": 3, "Width": 14, "Height": 27}
+      ]
+    },
+    "Sizes": [
+      {"X": 14, "Y": 27}
+    ]
+  },
+
+  "FireRightCrouchingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 182,
+          "Y": 139,
+          "Width": 16,
+          "Height": 22
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 22
+      }
+    ]
+  },
+
+  "FireLeftCrouchingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 696,
+          "Y": 139,
+          "Width": 16,
+          "Height": 22
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 22
+      }
+    ]
+  },
+
+  "FireRightJumpingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 165,
+          "Y": 129,
+          "Width": 16,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "FireLeftJumpingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 713,
+          "Y": 129,
+          "Width": 16,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "FireRightStandingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 80,
+          "Y": 129,
+          "Width": 16,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "FireLeftStandingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 798,
+          "Y": 129,
+          "Width": 16,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "FireRightSlidingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 148,
+          "Y": 129,
+          "Width": 16,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "FireLeftSlidingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 730,
+          "Y": 129,
+          "Width": 16,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "FireRightAttackingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 233,
+          "Y": 131,
+          "Width": 16,
+          "Height": 30
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "FireLeftAttackingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 526,
+          "Y": 129,
+          "Width": 16,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "FireRightWalkingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 5,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 97,
+          "Y": 131,
+          "Width": 16,
+          "Height": 30
+        },
+        {
+          "X": 115,
+          "Y": 130,
+          "Width": 14,
+          "Height": 31
+        },
+        {
+          "X": 131,
+          "Y": 129,
+          "Width": 16,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 30
+      },
+      {
+        "X": 14,
+        "Y": 31
+      },
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "FireLeftWalkingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 5,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 781,
+          "Y": 131,
+          "Width": 16,
+          "Height": 30
+        },
+        {
+          "X": 765,
+          "Y": 130,
+          "Width": 14,
+          "Height": 31
+        },
+        {
+          "X": 747,
+          "Y": 129,
+          "Width": 16,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 30
+      },
+      {
+        "X": 14,
+        "Y": 31
+      },
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "FireRightRunningMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 3,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 97,
+          "Y": 131,
+          "Width": 16,
+          "Height": 30
+        },
+        {
+          "X": 115,
+          "Y": 130,
+          "Width": 14,
+          "Height": 31
+        },
+        {
+          "X": 131,
+          "Y": 129,
+          "Width": 16,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 30
+      },
+      {
+        "X": 14,
+        "Y": 31
+      },
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "FireLeftRunningMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 3,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 781,
+          "Y": 131,
+          "Width": 16,
+          "Height": 30
+        },
+        {
+          "X": 765,
+          "Y": 130,
+          "Width": 14,
+          "Height": 31
+        },
+        {
+          "X": 747,
+          "Y": 129,
+          "Width": 16,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 30
+      },
+      {
+        "X": 14,
+        "Y": 31
+      },
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "FireRightVictoryMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 218,
+          "Y": 131,
+          "Width": 14,
+          "Height": 27
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 14,
+        "Y": 27
+      }
+    ]
+  },
+
+  "FireLeftVictoryMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 662,
+          "Y": 131,
+          "Width": 14,
+          "Height": 27
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 14,
+        "Y": 27
+      }
+    ]
+  },
+
+  "SmallRightJumpingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 165,
+          "Y": 34,
+          "Width": 16,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 12,
+        "Y": 16
+      }
+    ]
+  },
+
+  "SmallLeftJumpingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 713,
+          "Y": 34,
+          "Width": 16,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 12,
+        "Y": 16
+      }
+    ]
+  },
+
+  "SmallRightStandingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 82,
+          "Y": 34,
+          "Width": 12,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 12,
+        "Y": 16
+      }
+    ]
+  },
+
+  "SmallLeftStandingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 800,
+          "Y": 34,
+          "Width": 12,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 12,
+        "Y": 16
+      }
+    ]
+  },
+
+  "SmallRightSlidingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 149,
+          "Y": 34,
+          "Width": 13,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 13,
+        "Y": 16
+      }
+    ]
+  },
+
+  "SmallLeftSlidingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 732,
+          "Y": 34,
+          "Width": 13,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 13,
+        "Y": 16
+      }
+    ]
+  },
+
+  "SmallRightWalkingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 5,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 98,
+          "Y": 35,
+          "Width": 12,
+          "Height": 15
+        },
+        {
+          "X": 117,
+          "Y": 34,
+          "Width": 11,
+          "Height": 16
+        },
+        {
+          "X": 131,
+          "Y": 34,
+          "Width": 15,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 12,
+        "Y": 15
+      },
+      {
+        "X": 11,
+        "Y": 16
+      },
+      {
+        "X": 15,
+        "Y": 16
+      }
+    ]
+  },
+
+  "SmallLeftWalkingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 5,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 783,
+          "Y": 35,
+          "Width": 12,
+          "Height": 15
+        },
+        {
+          "X": 766,
+          "Y": 34,
+          "Width": 11,
+          "Height": 16
+        },
+        {
+          "X": 748,
+          "Y": 34,
+          "Width": 15,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 12,
+        "Y": 15
+      },
+      {
+        "X": 11,
+        "Y": 16
+      },
+      {
+        "X": 15,
+        "Y": 16
+      }
+    ]
+  },
+
+  "SmallRightRunningMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 3,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 98,
+          "Y": 35,
+          "Width": 12,
+          "Height": 15
+        },
+        {
+          "X": 117,
+          "Y": 34,
+          "Width": 11,
+          "Height": 16
+        },
+        {
+          "X": 131,
+          "Y": 34,
+          "Width": 15,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 12,
+        "Y": 15
+      },
+      {
+        "X": 11,
+        "Y": 16
+      },
+      {
+        "X": 15,
+        "Y": 16
+      }
+    ]
+  },
+
+  "SmallLeftRunningMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 3,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 783,
+          "Y": 35,
+          "Width": 12,
+          "Height": 15
+        },
+        {
+          "X": 766,
+          "Y": 34,
+          "Width": 11,
+          "Height": 16
+        },
+        {
+          "X": 748,
+          "Y": 34,
+          "Width": 15,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 12,
+        "Y": 15
+      },
+      {
+        "X": 11,
+        "Y": 16
+      },
+      {
+        "X": 15,
+        "Y": 16
+      }
+    ]
+  },
+
+  "SmallRightDowngradingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 8,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 250,
+          "Y": 3,
+          "Width": 16,
+          "Height": 29
+        },
+        {
+          "X": 0,
+          "Y": 0,
+          "Width": 0,
+          "Height": 0
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 0,
+        "Y": 0
+      },
+      {
+        "X": 0,
+        "Y": 0
+      }
+    ]
+  },
+
+  "SmallLeftDowngradingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 8,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 628,
+          "Y": 3,
+          "Width": 16,
+          "Height": 29
+        },
+        {
+          "X": 0,
+          "Y": 0,
+          "Width": 0,
+          "Height": 0
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 0,
+        "Y": 0
+      },
+      {
+        "X": 0,
+        "Y": 0
+      }
+    ]
+  },
+
+  "SmallRightVictoryMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 218,
+          "Y": 35,
+          "Width": 12,
+          "Height": 15
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 12,
+        "Y": 15
+      }
+    ]
+  },
+
+  "SmallLeftVictoryMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 664,
+          "Y": 35,
+          "Width": 12,
+          "Height": 15
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 12,
+        "Y": 15
+      }
+    ]
+  },
+
+  "StarBigRightCrouchingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 182,
+          "Y": 202,
+          "Width": 16,
+          "Height": 22
+        }
+      ],
+      "1": [
+        {
+          "X": 182,
+          "Y": 265,
+          "Width": 16,
+          "Height": 22
+        }
+      ],
+      "2": [
+        {
+          "X": 182,
+          "Y": 328,
+          "Width": 16,
+          "Height": 22
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 22
+      }
+    ]
+  },
+
+  "StarBigLeftCrouchingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 696,
+          "Y": 202,
+          "Width": 16,
+          "Height": 22
+        }
+      ],
+      "1": [
+        {
+          "X": 696,
+          "Y": 265,
+          "Width": 16,
+          "Height": 22
+        }
+      ],
+      "2": [
+        {
+          "X": 696,
+          "Y": 328,
+          "Width": 16,
+          "Height": 22
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 22
+      }
+    ]
+  },
+
+  "StarBigRightJumpingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 165,
+          "Y": 192,
+          "Width": 16,
+          "Height": 32
+        }
+      ],
+      "1": [
+        {
+          "X": 165,
+          "Y": 255,
+          "Width": 16,
+          "Height": 32
+        }
+      ],
+      "2": [
+        {
+          "X": 165,
+          "Y": 318,
+          "Width": 16,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "StarBigLeftJumpingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 713,
+          "Y": 192,
+          "Width": 16,
+          "Height": 32
+        }
+      ],
+      "1": [
+        {
+          "X": 713,
+          "Y": 255,
+          "Width": 16,
+          "Height": 32
+        }
+      ],
+      "2": [
+        {
+          "X": 713,
+          "Y": 318,
+          "Width": 16,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "StarBigRightStandingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 80,
+          "Y": 192,
+          "Width": 16,
+          "Height": 32
+        }
+      ],
+      "1": [
+        {
+          "X": 80,
+          "Y": 255,
+          "Width": 16,
+          "Height": 32
+        }
+      ],
+      "2": [
+        {
+          "X": 80,
+          "Y": 318,
+          "Width": 16,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "StarBigLeftStandingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 798,
+          "Y": 192,
+          "Width": 16,
+          "Height": 32
+        }
+      ],
+      "1": [
+        {
+          "X": 798,
+          "Y": 255,
+          "Width": 16,
+          "Height": 32
+        }
+      ],
+      "2": [
+        {
+          "X": 798,
+          "Y": 318,
+          "Width": 16,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "StarBigRightSlidingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 148,
+          "Y": 192,
+          "Width": 16,
+          "Height": 32
+        }
+      ],
+      "1": [
+        {
+          "X": 148,
+          "Y": 255,
+          "Width": 16,
+          "Height": 32
+        }
+      ],
+      "2": [
+        {
+          "X": 148,
+          "Y": 318,
+          "Width": 16,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "StarBigLeftSlidingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 730,
+          "Y": 192,
+          "Width": 16,
+          "Height": 32
+        }
+      ],
+      "1": [
+        {
+          "X": 730,
+          "Y": 255,
+          "Width": 16,
+          "Height": 32
+        }
+      ],
+      "2": [
+        {
+          "X": 730,
+          "Y": 318,
+          "Width": 16,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "StarBigRightWalkingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 5,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 97,
+          "Y": 194,
+          "Width": 16,
+          "Height": 30
+        },
+        {
+          "X": 115,
+          "Y": 193,
+          "Width": 14,
+          "Height": 31
+        },
+        {
+          "X": 131,
+          "Y": 192,
+          "Width": 16,
+          "Height": 32
+        }
+      ],
+      "1": [
+        {
+          "X": 97,
+          "Y": 257,
+          "Width": 16,
+          "Height": 30
+        },
+        {
+          "X": 115,
+          "Y": 256,
+          "Width": 14,
+          "Height": 31
+        },
+        {
+          "X": 131,
+          "Y": 255,
+          "Width": 16,
+          "Height": 32
+        }
+      ],
+      "2": [
+        {
+          "X": 97,
+          "Y": 320,
+          "Width": 16,
+          "Height": 30
+        },
+        {
+          "X": 115,
+          "Y": 319,
+          "Width": 14,
+          "Height": 31
+        },
+        {
+          "X": 131,
+          "Y": 318,
+          "Width": 16,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 30
+      },
+      {
+        "X": 14,
+        "Y": 31
+      },
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "StarBigLeftWalkingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 5,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 781,
+          "Y": 194,
+          "Width": 16,
+          "Height": 30
+        },
+        {
+          "X": 765,
+          "Y": 193,
+          "Width": 14,
+          "Height": 31
+        },
+        {
+          "X": 747,
+          "Y": 192,
+          "Width": 16,
+          "Height": 32
+        }
+      ],
+      "1": [
+        {
+          "X": 781,
+          "Y": 257,
+          "Width": 16,
+          "Height": 30
+        },
+        {
+          "X": 765,
+          "Y": 256,
+          "Width": 14,
+          "Height": 31
+        },
+        {
+          "X": 747,
+          "Y": 255,
+          "Width": 16,
+          "Height": 32
+        }
+      ],
+      "2": [
+        {
+          "X": 781,
+          "Y": 320,
+          "Width": 16,
+          "Height": 30
+        },
+        {
+          "X": 765,
+          "Y": 319,
+          "Width": 14,
+          "Height": 31
+        },
+        {
+          "X": 747,
+          "Y": 318,
+          "Width": 16,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 30
+      },
+      {
+        "X": 14,
+        "Y": 31
+      },
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "StarBigRightRunningMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 3,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 97,
+          "Y": 194,
+          "Width": 16,
+          "Height": 30
+        },
+        {
+          "X": 115,
+          "Y": 193,
+          "Width": 14,
+          "Height": 31
+        },
+        {
+          "X": 131,
+          "Y": 192,
+          "Width": 16,
+          "Height": 32
+        }
+      ],
+      "1": [
+        {
+          "X": 97,
+          "Y": 257,
+          "Width": 16,
+          "Height": 30
+        },
+        {
+          "X": 115,
+          "Y": 256,
+          "Width": 14,
+          "Height": 31
+        },
+        {
+          "X": 131,
+          "Y": 255,
+          "Width": 16,
+          "Height": 32
+        }
+      ],
+      "2": [
+        {
+          "X": 97,
+          "Y": 320,
+          "Width": 16,
+          "Height": 30
+        },
+        {
+          "X": 115,
+          "Y": 319,
+          "Width": 14,
+          "Height": 31
+        },
+        {
+          "X": 131,
+          "Y": 318,
+          "Width": 16,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 30
+      },
+      {
+        "X": 14,
+        "Y": 31
+      },
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "StarBigLeftRunningMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 3,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 781,
+          "Y": 194,
+          "Width": 16,
+          "Height": 30
+        },
+        {
+          "X": 765,
+          "Y": 193,
+          "Width": 14,
+          "Height": 31
+        },
+        {
+          "X": 747,
+          "Y": 192,
+          "Width": 16,
+          "Height": 32
+        }
+      ],
+      "1": [
+        {
+          "X": 781,
+          "Y": 257,
+          "Width": 16,
+          "Height": 30
+        },
+        {
+          "X": 765,
+          "Y": 256,
+          "Width": 14,
+          "Height": 31
+        },
+        {
+          "X": 747,
+          "Y": 255,
+          "Width": 16,
+          "Height": 32
+        }
+      ],
+      "2": [
+        {
+          "X": 781,
+          "Y": 320,
+          "Width": 16,
+          "Height": 30
+        },
+        {
+          "X": 765,
+          "Y": 319,
+          "Width": 14,
+          "Height": 31
+        },
+        {
+          "X": 747,
+          "Y": 318,
+          "Width": 16,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 30
+      },
+      {
+        "X": 14,
+        "Y": 31
+      },
+      {
+        "X": 16,
+        "Y": 32
+      }
+    ]
+  },
+
+  "StarBigRightUpgradingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 8,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 335,
+          "Y": 200,
+          "Width": 16,
+          "Height": 24
+        },
+        {
+          "X": 82,
+          "Y": 225,
+          "Width": 12,
+          "Height": 16
+        }
+      ],
+      "1": [
+        {
+          "X": 335,
+          "Y": 263,
+          "Width": 16,
+          "Height": 24
+        },
+        {
+          "X": 82,
+          "Y": 288,
+          "Width": 12,
+          "Height": 16
+        }
+      ],
+      "2": [
+        {
+          "X": 335,
+          "Y": 326,
+          "Width": 16,
+          "Height": 24
+        },
+        {
+          "X": 82,
+          "Y": 353,
+          "Width": 12,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 0,
+        "Y": 0
+      },
+      {
+        "X": 0,
+        "Y": 0
+      }
+    ]
+  },
+
+  "StarBigLeftUpgradingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 8,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 543,
+          "Y": 200,
+          "Width": 16,
+          "Height": 24
+        },
+        {
+          "X": 800,
+          "Y": 225,
+          "Width": 12,
+          "Height": 16
+        }
+      ],
+      "1": [
+        {
+          "X": 543,
+          "Y": 263,
+          "Width": 16,
+          "Height": 24
+        },
+        {
+          "X": 800,
+          "Y": 288,
+          "Width": 12,
+          "Height": 16
+        }
+      ],
+      "2": [
+        {
+          "X": 543,
+          "Y": 326,
+          "Width": 16,
+          "Height": 24
+        },
+        {
+          "X": 800,
+          "Y": 353,
+          "Width": 12,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 0,
+        "Y": 0
+      },
+      {
+        "X": 0,
+        "Y": 0
+      }
+    ]
+  },
+
+  "StarSmallRightJumpingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 165,
+          "Y": 225,
+          "Width": 16,
+          "Height": 16
+        }
+      ],
+      "1": [
+        {
+          "X": 165,
+          "Y": 288,
+          "Width": 16,
+          "Height": 16
+        }
+      ],
+      "2": [
+        {
+          "X": 165,
+          "Y": 351,
+          "Width": 16,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 12,
+        "Y": 16
+      }
+    ]
+  },
+
+  "StarSmallLeftJumpingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 713,
+          "Y": 225,
+          "Width": 16,
+          "Height": 16
+        }
+      ],
+      "1": [
+        {
+          "X": 713,
+          "Y": 288,
+          "Width": 16,
+          "Height": 16
+        }
+      ],
+      "2": [
+        {
+          "X": 713,
+          "Y": 351,
+          "Width": 16,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 12,
+        "Y": 16
+      }
+    ]
+  },
+
+  "StarSmallRightStandingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 82,
+          "Y": 225,
+          "Width": 12,
+          "Height": 16
+        }
+      ],
+      "1": [
+        {
+          "X": 82,
+          "Y": 288,
+          "Width": 12,
+          "Height": 16
+        }
+      ],
+      "2": [
+        {
+          "X": 82,
+          "Y": 351,
+          "Width": 12,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 12,
+        "Y": 16
+      }
+    ]
+  },
+
+  "StarSmallLeftStandingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 800,
+          "Y": 225,
+          "Width": 12,
+          "Height": 16
+        }
+      ],
+      "1": [
+        {
+          "X": 800,
+          "Y": 288,
+          "Width": 12,
+          "Height": 16
+        }
+      ],
+      "2": [
+        {
+          "X": 800,
+          "Y": 351,
+          "Width": 12,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 12,
+        "Y": 16
+      }
+    ]
+  },
+
+  "StarSmallRightSlidingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 149,
+          "Y": 225,
+          "Width": 13,
+          "Height": 16
+        }
+      ],
+      "1": [
+        {
+          "X": 149,
+          "Y": 288,
+          "Width": 13,
+          "Height": 16
+        }
+      ],
+      "2": [
+        {
+          "X": 149,
+          "Y": 351,
+          "Width": 13,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 13,
+        "Y": 16
+      }
+    ]
+  },
+
+  "StarSmallLeftSlidingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 1,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 732,
+          "Y": 225,
+          "Width": 13,
+          "Height": 16
+        }
+      ],
+      "1": [
+        {
+          "X": 732,
+          "Y": 288,
+          "Width": 13,
+          "Height": 16
+        }
+      ],
+      "2": [
+        {
+          "X": 732,
+          "Y": 351,
+          "Width": 13,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 13,
+        "Y": 16
+      }
+    ]
+  },
+
+  "StarSmallRightWalkingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 5,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 98,
+          "Y": 226,
+          "Width": 12,
+          "Height": 15
+        },
+        {
+          "X": 117,
+          "Y": 225,
+          "Width": 11,
+          "Height": 16
+        },
+        {
+          "X": 131,
+          "Y": 225,
+          "Width": 15,
+          "Height": 16
+        }
+      ],
+      "1": [
+        {
+          "X": 98,
+          "Y": 289,
+          "Width": 12,
+          "Height": 15
+        },
+        {
+          "X": 117,
+          "Y": 288,
+          "Width": 11,
+          "Height": 16
+        },
+        {
+          "X": 131,
+          "Y": 288,
+          "Width": 15,
+          "Height": 16
+        }
+      ],
+      "2": [
+        {
+          "X": 98,
+          "Y": 352,
+          "Width": 12,
+          "Height": 15
+        },
+        {
+          "X": 117,
+          "Y": 351,
+          "Width": 11,
+          "Height": 16
+        },
+        {
+          "X": 131,
+          "Y": 351,
+          "Width": 15,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 12,
+        "Y": 15
+      },
+      {
+        "X": 11,
+        "Y": 16
+      },
+      {
+        "X": 15,
+        "Y": 16
+      }
+    ]
+  },
+
+  "StarSmallLeftWalkingMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 5,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 783,
+          "Y": 226,
+          "Width": 12,
+          "Height": 15
+        },
+        {
+          "X": 766,
+          "Y": 225,
+          "Width": 11,
+          "Height": 16
+        },
+        {
+          "X": 748,
+          "Y": 225,
+          "Width": 15,
+          "Height": 16
+        }
+      ],
+      "1": [
+        {
+          "X": 783,
+          "Y": 289,
+          "Width": 12,
+          "Height": 15
+        },
+        {
+          "X": 766,
+          "Y": 288,
+          "Width": 11,
+          "Height": 16
+        },
+        {
+          "X": 748,
+          "Y": 288,
+          "Width": 15,
+          "Height": 16
+        }
+      ],
+      "2": [
+        {
+          "X": 783,
+          "Y": 352,
+          "Width": 12,
+          "Height": 15
+        },
+        {
+          "X": 766,
+          "Y": 351,
+          "Width": 11,
+          "Height": 16
+        },
+        {
+          "X": 748,
+          "Y": 351,
+          "Width": 15,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 12,
+        "Y": 15
+      },
+      {
+        "X": 11,
+        "Y": 16
+      },
+      {
+        "X": 15,
+        "Y": 16
+      }
+    ]
+  },
+
+  "StarSmallRightRunningMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 3,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 98,
+          "Y": 226,
+          "Width": 12,
+          "Height": 15
+        },
+        {
+          "X": 117,
+          "Y": 225,
+          "Width": 11,
+          "Height": 16
+        },
+        {
+          "X": 131,
+          "Y": 225,
+          "Width": 15,
+          "Height": 16
+        }
+      ],
+      "1": [
+        {
+          "X": 98,
+          "Y": 289,
+          "Width": 12,
+          "Height": 15
+        },
+        {
+          "X": 117,
+          "Y": 288,
+          "Width": 11,
+          "Height": 16
+        },
+        {
+          "X": 131,
+          "Y": 288,
+          "Width": 15,
+          "Height": 16
+        }
+      ],
+      "2": [
+        {
+          "X": 98,
+          "Y": 352,
+          "Width": 12,
+          "Height": 15
+        },
+        {
+          "X": 117,
+          "Y": 351,
+          "Width": 11,
+          "Height": 16
+        },
+        {
+          "X": 131,
+          "Y": 351,
+          "Width": 15,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 12,
+        "Y": 15
+      },
+      {
+        "X": 11,
+        "Y": 16
+      },
+      {
+        "X": 15,
+        "Y": 16
+      }
+    ]
+  },
+
+  "StarSmallLeftRunningMario": {
+    "LayerDepth": 0.8,
+    "FrameDelay": 3,
+    "ColorTintDelay": 4,
+    "Scale": 2,
+    "TextureName": "mario",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 783,
+          "Y": 226,
+          "Width": 12,
+          "Height": 15
+        },
+        {
+          "X": 766,
+          "Y": 225,
+          "Width": 11,
+          "Height": 16
+        },
+        {
+          "X": 748,
+          "Y": 225,
+          "Width": 15,
+          "Height": 16
+        }
+      ],
+      "1": [
+        {
+          "X": 783,
+          "Y": 289,
+          "Width": 12,
+          "Height": 15
+        },
+        {
+          "X": 766,
+          "Y": 288,
+          "Width": 11,
+          "Height": 16
+        },
+        {
+          "X": 748,
+          "Y": 288,
+          "Width": 15,
+          "Height": 16
+        }
+      ],
+      "2": [
+        {
+          "X": 783,
+          "Y": 352,
+          "Width": 12,
+          "Height": 15
+        },
+        {
+          "X": 766,
+          "Y": 351,
+          "Width": 11,
+          "Height": 16
+        },
+        {
+          "X": 748,
+          "Y": 351,
+          "Width": 15,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 12,
+        "Y": 15
+      },
+      {
+        "X": 11,
+        "Y": 16
+      },
+      {
+        "X": 15,
+        "Y": 16
+      }
+    ]
+  },
+
+  "BrickBlock": {
+    "LayerDepth": 0.5,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "blocks",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 80,
+          "Y": 195,
+          "Width": 16,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 16
+      }
+    ]
+  },
+
+  "QuestionBlock": {
+    "LayerDepth": 0.5,
+    "FrameDelay": 14,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "blocks",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 80,
+          "Y": 112,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 96,
+          "Y": 112,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 112,
+          "Y": 112,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 96,
+          "Y": 112,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 80,
+          "Y": 112,
+          "Width": 16,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      }
+    ]
+  },
+
+  "StairBlock": {
+    "LayerDepth": 0.5,
+    "FrameDelay": 1,
+    "ColorTints": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "blocks",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 80,
+          "Y": 290,
+          "Width": 16,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 16
+      }
+    ]
+  },
+
+  "FloorBlock": {
+    "LayerDepth": 0.5,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "blocks",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 80,
+          "Y": 272,
+          "Width": 16,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 16
+      }
+    ]
+  },
+
+  "UsedBlock": {
+    "LayerDepth": 0.5,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "blocks",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 80,
+          "Y": 232,
+          "Width": 16,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 16
+      }
+    ]
+  },
+
+  "HiddenBlock": {
+    "LayerDepth": 0.5,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "blocks",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 0,
+          "Y": 0,
+          "Width": 16,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 16
+      }
+    ]
+  },
+
+  "DestroyedBlock": {
+    "LayerDepth": 0.5,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "blocks",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 304,
+          "Y": 112,
+          "Width": 16,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 16
+      }
+    ]
+  },
+
+  "DebrisBlock": {
+    "LayerDepth": 0.99,
+    "FrameDelay": 8,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "blocks",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 312,
+          "Y": 112,
+          "Width": 8,
+          "Height": 8
+        },
+        {
+          "X": 304,
+          "Y": 112,
+          "Width": 8,
+          "Height": 8
+        },
+        {
+          "X": 304,
+          "Y": 120,
+          "Width": 8,
+          "Height": 8
+        },
+        {
+          "X": 312,
+          "Y": 120,
+          "Width": 8,
+          "Height": 8
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 8,
+        "Y": 8
+      },
+      {
+        "X": 8,
+        "Y": 8
+      },
+      {
+        "X": 8,
+        "Y": 8
+      },
+      {
+        "X": 8,
+        "Y": 8
+      }
+    ]
+  },
+
+  "SmallVerticalGreenPipe": {
+    "LayerDepth": 0.99,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "blocks",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 757,
+          "Y": 417,
+          "Width": 32,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 32,
+        "Y": 32
+      }
+    ]
+  },
+
+  "MediumVerticalGreenPipe": {
+    "LayerDepth": 0.99,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "blocks",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 719,
+          "Y": 401,
+          "Width": 32,
+          "Height": 48
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 32,
+        "Y": 48
+      }
+    ]
+  },
+
+  "LargeVerticalGreenPipe": {
+    "LayerDepth": 0.99,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "blocks",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 678,
+          "Y": 385,
+          "Width": 32,
+          "Height": 64
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 32,
+        "Y": 64
+      }
+    ]
+  },
+
+  "HorizontalGreenPipe": {
+    "LayerDepth": 0.99,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "blocks",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 532,
+          "Y": 417,
+          "Width": 64,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 64,
+        "Y": 32
+      }
+    ]
+  },
+
+  "LargeGreenPipeShaft": {
+    "LayerDepth": 0.99,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "blocks",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 564,
+          "Y": 321,
+          "Width": 32,
+          "Height": 32
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 32,
+        "Y": 32
+      }
+    ]
+  },
+
+  "FireFlower": {
+    "LayerDepth": 0.4,
+    "FrameDelay": 14,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "items",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 0,
+          "Y": 32,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 16,
+          "Y": 32,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 32,
+          "Y": 32,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 48,
+          "Y": 32,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 32,
+          "Y": 32,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 16,
+          "Y": 32,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 0,
+          "Y": 32,
+          "Width": 16,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      }
+    ]
+  },
+
+  "NonSpinningCoin": {
+    "LayerDepth": 0.4,
+    "FrameDelay": 14,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "items",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 0,
+          "Y": 80,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 16,
+          "Y": 80,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 32,
+          "Y": 80,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 48,
+          "Y": 80,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 32,
+          "Y": 80,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 16,
+          "Y": 80,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 0,
+          "Y": 80,
+          "Width": 16,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      }
+    ]
+  },
+
+  "SpinningCoin": {
+    "LayerDepth": 0.4,
+    "FrameDelay": 8,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "items",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 0,
+          "Y": 96,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 16,
+          "Y": 96,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 32,
+          "Y": 96,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 48,
+          "Y": 96,
+          "Width": 16,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      }
+    ]
+  },
+
+  "Star": {
+    "LayerDepth": 0.4,
+    "FrameDelay": 14,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "items",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 0,
+          "Y": 48,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 16,
+          "Y": 48,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 32,
+          "Y": 48,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 48,
+          "Y": 48,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 32,
+          "Y": 48,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 16,
+          "Y": 48,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 0,
+          "Y": 48,
+          "Width": 16,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      },
+      {
+        "X": 16,
+        "Y": 16
+      }
+    ]
+  },
+
+  "RedMushroom": {
+    "LayerDepth": 0.4,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "items",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 0,
+          "Y": 0,
+          "Width": 16,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 16
+      }
+    ]
+  },
+
+  "GreenMushroom": {
+    "LayerDepth": 0.4,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "items",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 16,
+          "Y": 0,
+          "Width": 16,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 16
+      }
+    ]
+  },
+
+  "Flagpole": {
+    "LayerDepth": 0.01,
+    "FrameDelay": 14,
+    "ColorTints": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "scenery",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 249,
+          "Y": 594,
+          "Width": 24,
+          "Height": 151
+        },
+        {
+          "X": 216,
+          "Y": 594,
+          "Width": 24,
+          "Height": 151
+        },
+        {
+          "X": 182,
+          "Y": 594,
+          "Width": 24,
+          "Height": 151
+        },
+        {
+          "X": 149,
+          "Y": 594,
+          "Width": 24,
+          "Height": 151
+        },
+        {
+          "X": 117,
+          "Y": 594,
+          "Width": 23,
+          "Height": 151
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 3,
+        "Y": 151
+      },
+      {
+        "X": 3,
+        "Y": 151
+      },
+      {
+        "X": 3,
+        "Y": 151
+      },
+      {
+        "X": 3,
+        "Y": 151
+      },
+      {
+        "X": 3,
+        "Y": 151
+      }
+    ]
+  },
+
+  "LargeHill": {
+    "LayerDepth": 0.01,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "scenery",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 498,
+          "Y": 34,
+          "Width": 80,
+          "Height": 35
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 80,
+        "Y": 35
+      }
+    ]
+  },
+
+  "SmallHill": {
+    "LayerDepth": 0.01,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "scenery",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 447,
+          "Y": 50,
+          "Width": 48,
+          "Height": 19
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 48,
+        "Y": 19
+      }
+    ]
+  },
+
+  "LargeBush": {
+    "LayerDepth": 0.01,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "scenery",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 484,
+          "Y": 127,
+          "Width": 64,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 64,
+        "Y": 16
+      }
+    ]
+  },
+
+  "MediumBush": {
+    "LayerDepth": 0.01,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "scenery",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 550,
+          "Y": 127,
+          "Width": 48,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 48,
+        "Y": 16
+      }
+    ]
+  },
+
+  "SmallBush": {
+    "LayerDepth": 0.01,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "scenery",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 450,
+          "Y": 127,
+          "Width": 32,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 32,
+        "Y": 16
+      }
+    ]
+  },
+
+  "LargeCloud": {
+    "LayerDepth": 0.01,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "scenery",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 495,
+          "Y": 72,
+          "Width": 64,
+          "Height": 24
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 64,
+        "Y": 24
+      }
+    ]
+  },
+
+  "MediumCloud": {
+    "LayerDepth": 0.01,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "scenery",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 445,
+          "Y": 72,
+          "Width": 48,
+          "Height": 24
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 48,
+        "Y": 24
+      }
+    ]
+  },
+
+  "SmallCloud": {
+    "LayerDepth": 0.01,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "scenery",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 561,
+          "Y": 72,
+          "Width": 32,
+          "Height": 24
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 32,
+        "Y": 24
+      }
+    ]
+  },
+
+  "SmallCastle": {
+    "LayerDepth": 0.75,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "scenery",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 247,
+          "Y": 863,
+          "Width": 80,
+          "Height": 80
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 80,
+        "Y": 80
+      }
+    ]
+  },
+
+  "WalkingGoomba": {
+    "LayerDepth": 0.95,
+    "FrameDelay": 8,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "enemies",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 296,
+          "Y": 187,
+          "Width": 16,
+          "Height": 16
+        },
+        {
+          "X": 315,
+          "Y": 187,
+          "Width": 16,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 15,
+        "Y": 11
+      },
+      {
+        "X": 15,
+        "Y": 11
+      }
+    ]
+  },
+
+  "LeftWalkingKoopa": {
+    "LayerDepth": 0.95,
+    "FrameDelay": 8,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "enemies",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 201,
+          "Y": 207,
+          "Width": 16,
+          "Height": 23
+        },
+        {
+          "X": 182,
+          "Y": 206,
+          "Width": 16,
+          "Height": 24
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 20
+      },
+      {
+        "X": 16,
+        "Y": 20
+      }
+    ]
+  },
+
+  "RightWalkingKoopa": {
+    "LayerDepth": 0.95,
+    "FrameDelay": 8,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "enemies",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 297,
+          "Y": 207,
+          "Width": 16,
+          "Height": 23
+        },
+        {
+          "X": 315,
+          "Y": 206,
+          "Width": 16,
+          "Height": 24
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 20
+      },
+      {
+        "X": 16,
+        "Y": 20
+      }
+    ]
+  },
+
+  "StompedGoomba": {
+    "LayerDepth": 0.95,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "enemies",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 277,
+          "Y": 195,
+          "Width": 16,
+          "Height": 8
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 8
+      }
+    ]
+  },
+
+  "FlippedGoomba": {
+    "LayerDepth": 0.95,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "enemies",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 809,
+          "Y": 198,
+          "Width": 16,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 16
+      }
+    ]
+  },
+
+  "StompedKoopa": {
+    "LayerDepth": 0.95,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "enemies",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 144,
+          "Y": 216,
+          "Width": 16,
+          "Height": 14
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 14
+      }
+    ]
+  },
+
+  "FlippedKoopa": {
+    "LayerDepth": 0.95,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "enemies",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 353,
+          "Y": 216,
+          "Width": 16,
+          "Height": 14
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 16,
+        "Y": 14
+      }
+    ]
+  },
+
+  "Fireball": {
+    "LayerDepth": 0.9,
+    "FrameDelay": 8,
+    "ColorTintDelay": 1,
+    "Scale": 2.5,
+    "TextureName": "items",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 96,
+          "Y": 144,
+          "Width": 8,
+          "Height": 8
+        },
+        {
+          "X": 104,
+          "Y": 144,
+          "Width": 8,
+          "Height": 8
+        },
+        {
+          "X": 96,
+          "Y": 152,
+          "Width": 8,
+          "Height": 8
+        },
+        {
+          "X": 104,
+          "Y": 152,
+          "Width": 8,
+          "Height": 8
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 8,
+        "Y": 8
+      },
+      {
+        "X": 8,
+        "Y": 8
+      },
+      {
+        "X": 8,
+        "Y": 8
+      },
+      {
+        "X": 8,
+        "Y": 8
+      }
+    ]
+  },
+
+  "DestroyedFireball": {
+    "LayerDepth": 0.99,
+    "FrameDelay": 8,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "items",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 116,
+          "Y": 148,
+          "Width": 8,
+          "Height": 8
+        },
+        {
+          "X": 114,
+          "Y": 161,
+          "Width": 12,
+          "Height": 14
+        },
+        {
+          "X": 112,
+          "Y": 176,
+          "Width": 16,
+          "Height": 16
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 8,
+        "Y": 8
+      },
+      {
+        "X": 12,
+        "Y": 14
+      },
+      {
+        "X": 16,
+        "Y": 16
+      }
+    ]
+  },
+  "Cross": {
+    "LayerDepth": 0.99,
+    "FrameDelay": 1,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "extras",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 41,
+          "Y": 162,
+          "Width": 5,
+          "Height": 5
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 5,
+        "Y": 5
+      }
+    ]
+  },
+  "HudCoinSprite": {
+    "LayerDepth": 0.99,
+    "FrameDelay": 7,
+    "ColorTintDelay": 1,
+    "Scale": 2,
+    "TextureName": "extras",
+    "SourceFrames": {
+      "0": [
+        {
+          "X": 9,
+          "Y": 160,
+          "Width": 5,
+          "Height": 8
+        },
+        {
+          "X": 17,
+          "Y": 160,
+          "Width": 5,
+          "Height": 8
+        },
+        {
+          "X": 1,
+          "Y": 160,
+          "Width": 5,
+          "Height": 8
+        }
+      ]
+    },
+    "Sizes": [
+      {
+        "X": 5,
+        "Y": 8
+      },
+      {
+        "X": 5,
+        "Y": 8
+      },
+      {
+        "X": 5,
+        "Y": 8
+      }
+    ]
+  }
+}

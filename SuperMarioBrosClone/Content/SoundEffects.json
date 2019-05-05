@@ -1,0 +1,21 @@
+{
+  "bump": "SoundFX/smb_bump",
+  "1-up": "SoundFX/smb_1-up",
+  "break": "SoundFX/smb_breakblock",
+  "coin": "SoundFX/smb_coin",
+  "fireball": "SoundFX/smb_fireball",
+  "flagpole": "SoundFX/smb_flagpole",
+  "gameover": "SoundFX/smb_gameover",
+  "small-jump": "SoundFX/smb_jump-small",
+  "super-jump": "SoundFX/smb_jump-super",
+  "kick": "SoundFX/smb_kick",
+  "die": "SoundFX/smb_mariodie",
+  "pause": "SoundFX/smb_pause",
+  "pipe": "SoundFX/smb_pipe",
+  "powerup": "SoundFX/smb_powerup",
+  "spawn": "SoundFX/smb_powerup_appears",
+  "stomp": "SoundFX/smb_stomp",
+  "warning": "SoundFX/smb_warning",
+  "time": "Songs/4(2)",
+  "complete": "Songs/LevelComplete"
+}

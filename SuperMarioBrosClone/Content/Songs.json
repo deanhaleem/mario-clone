@@ -1,0 +1,8 @@
+{
+  "over": "Songs/overworld",
+  "under": "Songs/underworld",
+  "StarMario": "Songs/starman",
+  "hurryover": "Songs/hurry-overworld-",
+  "hurryunder": "Songs/hurry-underground",
+  "hurryStarMario": "Songs/hurry-starman-"
+}

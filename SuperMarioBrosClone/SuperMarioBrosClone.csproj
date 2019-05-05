@@ -1,0 +1,384 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{07C88559-3721-4F70-910E-900D025F8ECE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SuperMarioBrosClone</RootNamespace>
+    <AssemblyName>SuperMarioBrosClone</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MonoGamePlatform>Windows</MonoGamePlatform>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\$(MonoGamePlatform)\$(Platform)\$(Configuration)\</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Camera\Camera.cs" />
+    <Compile Include="Camera\CameraController.cs" />
+    <Compile Include="Collisions\Collision Handlers\Enemy\EnemyBlockCollisionHandler.cs" />
+    <Compile Include="Collisions\Collision Handlers\Enemy\EnemyCameraCollisionHandler.cs" />
+    <Compile Include="Collisions\Collision Handlers\Enemy\EnemyEnemyCollisionHandler.cs" />
+    <Compile Include="Collisions\Collision Handlers\Item\ItemBlockCollisionHandler.cs" />
+    <Compile Include="Collisions\Collision Handlers\Player\PlayerBlockCollisionHandler.cs" />
+    <Compile Include="Collisions\Collision Handlers\Player\PlayerCameraCollisionHandler.cs" />
+    <Compile Include="Collisions\Collision Handlers\Player\PlayerEnemyCollisionHandler.cs" />
+    <Compile Include="Collisions\Collision Handlers\Player\PlayerItemCollisionHandler.cs" />
+    <Compile Include="Collisions\Collision Handlers\Player\PlayerWarpPipeCollisionHandler.cs" />
+    <Compile Include="Collisions\Collision Handlers\Projectile\ProjectileBlockCollisionHandler.cs" />
+    <Compile Include="Collisions\Collision Managers\CollisionManager.cs" />
+    <Compile Include="Collisions\Collision Managers\CollisionSecretary.cs" />
+    <Compile Include="Collisions\Collision Responders\Enemy\EnemyBlockCollisionResponder.cs" />
+    <Compile Include="Collisions\Collision Responders\Enemy\EnemyCameraCollisionResponder.cs" />
+    <Compile Include="Collisions\Collision Responders\Enemy\EnemyEnemyCollisionResponder.cs" />
+    <Compile Include="Collisions\Collision Responders\Enemy\EnemyProjectileCollisionResponder.cs" />
+    <Compile Include="Collisions\Collision Responders\Item\ItemBlockCollisionResponder.cs" />
+    <Compile Include="Collisions\Collision Responders\Player\PlayerBlockCollisionResponder.cs" />
+    <Compile Include="Collisions\Collision Responders\Player\PlayerCameraCollisionResponder.cs" />
+    <Compile Include="Collisions\Collision Responders\Player\PlayerEnemyCollisionResponder.cs" />
+    <Compile Include="Collisions\Collision Responders\Player\PlayerItemCollisionResponder.cs" />
+    <Compile Include="Collisions\Collision Responders\Player\PlayerWarpPipeCollisionResponder.cs" />
+    <Compile Include="Collisions\Collision Responders\Projectile\ProjectileBlockCollisionResponder.cs" />
+    <Compile Include="Collisions\Collision Types\BottomCollision.cs" />
+    <Compile Include="Collisions\Collision Types\Collision.cs" />
+    <Compile Include="Collisions\Collision Types\LeftCollision.cs" />
+    <Compile Include="Collisions\Collision Types\RightCollision.cs" />
+    <Compile Include="Collisions\Collision Types\TopCollision.cs" />
+    <Compile Include="Collisions\Collisions.cs" />
+    <Compile Include="Commands\Collision Commands\Enemy Collision Commands\Block Collision Commands\PushEnemyDownCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Enemy Collision Commands\Block Collision Commands\PushEnemyLeftCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Enemy Collision Commands\Block Collision Commands\PushEnemyRightCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Enemy Collision Commands\Block Collision Commands\PushEnemyUpCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Enemy Collision Commands\Camera Collision Commands\RightEnemyCameraCollisionCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Enemy Collision Commands\Enemy Collision Commands\PushEnemyDownOtherUpCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Enemy Collision Commands\Enemy Collision Commands\PushEnemyLeftOtherRightCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Enemy Collision Commands\Enemy Collision Commands\PushEnemyRightOtherLeftCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Enemy Collision Commands\Enemy Collision Commands\PushEnemyUpOtherDownCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Enemy Collision Commands\Enemy Collision Commands\PushLeftOrKillEnemyCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Enemy Collision Commands\Enemy Collision Commands\PushRightOrKillEnemyCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Item Collision Commands\Block Collision Commands\PushItemDownCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Item Collision Commands\Block Collision Commands\PushItemLeftCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Item Collision Commands\Block Collision Commands\PushItemRightCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Item Collision Commands\Block Collision Commands\PushItemUpCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Block Commands\PushPlayerDownBumpBlockCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Block Commands\PushPlayerDownBumpRevealedBlockCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Block Commands\PushPlayerDownDestroyBlockCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Block Commands\PushPlayerDownNotWarpingCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Block Commands\PushPlayerDownSpawnFireFlowerCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Block Commands\PushPlayerLeftCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Block Commands\PushPlayerLeftNotWarpingCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Block Commands\PushPlayerRightCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Block Commands\PushPlayerRightNotWarpingCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Block Commands\PushPlayerUpCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Block Commands\PushPlayerUpNotWarpingCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Camera Commands\LeftPlayerCameraCollisionCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Camera Commands\RightPlayerCameraCollisionCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Enemy Collision Commands\DamagePlayerCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Enemy Collision Commands\FlipEnemyCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Enemy Collision Commands\PushLeftOrDamagePlayerCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Enemy Collision Commands\PushPlayerUpDisarmEnemyCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Enemy Collision Commands\PushPlayerUpStompEnemyCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Enemy Collision Commands\PushPlayerUpStompOrMoveShellCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Enemy Collision Commands\PushRightOrDamagePlayerCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Item Commands\GainLifeCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Item Commands\PickUpCoinCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Item Commands\PickUpPowerUpCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Item Commands\RemovePlayerFromScreenCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Item Commands\TurnBlinkingMarioBigCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Item Commands\TurnBlinkingMarioFireCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Item Commands\TurnBlinkingMarioStarCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Item Commands\TurnPlayerBigCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Item Commands\TurnPlayerFireCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Item Commands\TurnPlayerStarCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Item Commands\WinLevelCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Warp Pipe Commands\WarpDownCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Warp Pipe Commands\WarpRightCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Player Collision Commands\Warp Pipe Commands\WarpUpCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Projectile Collision Commands\Block\PushLeftExplodeProjectileCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Projectile Collision Commands\Block\PushProjectileDownCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Projectile Collision Commands\Block\PushProjectileUpCommand.cs" />
+    <Compile Include="Commands\Collision Commands\Projectile Collision Commands\Block\PushRightExplodeProjectileCommand.cs" />
+    <Compile Include="Commands\Base\Command.cs" />
+    <Compile Include="Commands\Game State Commands\DisplayRectanglesCommand.cs" />
+    <Compile Include="Commands\Game State Commands\PauseCommand.cs" />
+    <Compile Include="Commands\Game State Commands\QuitCommand.cs" />
+    <Compile Include="Commands\Game State Commands\ResetCommand.cs" />
+    <Compile Include="Commands\NullCommand.cs" />
+    <Compile Include="Commands\Player Commands\AttackCommand.cs" />
+    <Compile Include="Commands\Player Commands\CrouchCommand.cs" />
+    <Compile Include="Commands\Player Commands\JumpCommand.cs" />
+    <Compile Include="Commands\Player Commands\RunCommand.cs" />
+    <Compile Include="Commands\Player Commands\StopCrouchingCommand.cs" />
+    <Compile Include="Commands\Player Commands\StopJumpingCommand.cs" />
+    <Compile Include="Commands\Player Commands\StopMovingLeftCommand.cs" />
+    <Compile Include="Commands\Player Commands\StopMovingRightCommand.cs" />
+    <Compile Include="Commands\Player Commands\StopRunningCommand.cs" />
+    <Compile Include="Commands\Player Commands\WalkLeftCommand.cs" />
+    <Compile Include="Commands\Player Commands\WalkRightCommand.cs" />
+    <Compile Include="Controllers\KeyboardController.cs" />
+    <Compile Include="Controllers\VictoryKeyboardController.cs" />
+    <Compile Include="Factories\BlockFactory.cs" />
+    <Compile Include="Factories\IndicatorFactory.cs" />
+    <Compile Include="Factories\ItemFactory.cs" />
+    <Compile Include="Factories\ProjectileFactory.cs" />
+    <Compile Include="Factories\Sprite Factory\SpriteFactory.cs" />
+    <Compile Include="Factories\Sprite Factory\SpriteRegistrar.cs" />
+    <Compile Include="Game Object States\Block States\Base\BlockState.cs" />
+    <Compile Include="Game Object States\Block States\BumpableBlockState.cs" />
+    <Compile Include="Game Object States\Block States\BumpedBlockState.cs" />
+    <Compile Include="Game Object States\Block States\DestroyableBlockState.cs" />
+    <Compile Include="Game Object States\Block States\DestroyedBlockState.cs" />
+    <Compile Include="Game Object States\Block States\NonBumpableBlockState.cs" />
+    <Compile Include="Game Object States\Block States\UsedBlockState.cs" />
+    <Compile Include="Game Object States\Enemy States\DeadEnemyState.cs" />
+    <Compile Include="Game Object States\Enemy States\Base\EnemyState.cs" />
+    <Compile Include="Game Object States\Enemy States\FlippedEnemyState.cs" />
+    <Compile Include="Game Object States\Enemy States\LeftWalkingEnemyState.cs" />
+    <Compile Include="Game Object States\Enemy States\RightWalkingEnemyState.cs" />
+    <Compile Include="Game Object States\Enemy States\ShellEnemyState.cs" />
+    <Compile Include="Game Object States\Enemy States\SleepingEnemyState.cs" />
+    <Compile Include="Game Object States\Enemy States\StompedEnemyState.cs" />
+    <Compile Include="Game Object States\Item States\BouncingItemState.cs" />
+    <Compile Include="Game Object States\Item States\IdleItemState.cs" />
+    <Compile Include="Game Object States\Item States\ItemState.cs" />
+    <Compile Include="Game Object States\Item States\MovingItemState.cs" />
+    <Compile Include="Game Object States\Item States\SpawningItemState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\ActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Aerial\Falling\LeftFallingActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Aerial\Falling\RightFallingActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Aerial\Jumping\LeftJumpingActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Aerial\Jumping\RightJumpingActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Aerial\LeftAerialActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Aerial\RightAerialActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Crouching\LeftCrouchingActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Crouching\RightCrouchingActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Dead\DeadActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\LeftActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\RightActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Running\LeftRunningActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Running\RightRunningActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Sliding\LeftSlidingActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Sliding\RightSlidingActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Standing\LeftStandingActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Standing\RightStandingActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Transforming\Downgrading\LeftDowngradingActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Transforming\Downgrading\RightDowngradingActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Transforming\TransformingActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Transforming\Upgrading\LeftUpgradingActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Transforming\Upgrading\RightUpgradingActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Victory\LeftVictoryActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Victory\RightVictoryActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Walking\LeftWalkingActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Walking\RightWalkingActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Warping\LeftWarpingActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Warping\RightWarpingActionState.cs" />
+    <Compile Include="Game Object States\Player States\Action States\Warping\WarpingActionState.cs" />
+    <Compile Include="Game Object States\Player States\PowerUp States\BigPowerUpState.cs" />
+    <Compile Include="Game Object States\Player States\PowerUp States\DeadPowerUpState.cs" />
+    <Compile Include="Game Object States\Player States\PowerUp States\FirePowerUpState.cs" />
+    <Compile Include="Game Object States\Player States\PowerUp States\PowerUpState.cs" />
+    <Compile Include="Game Object States\Player States\PowerUp States\SmallPowerUpState.cs" />
+    <Compile Include="Game Object States\Projectile States\ActiveProjectileState.cs" />
+    <Compile Include="Game Object States\Projectile States\DestroyedProjectileState.cs" />
+    <Compile Include="Game Object States\Projectile States\ProjectileState.cs" />
+    <Compile Include="Game Objects\Blocks\Block.cs" />
+    <Compile Include="Game Objects\Blocks\Bumpable Blocks\HiddenBlock.cs" />
+    <Compile Include="Game Objects\Blocks\Bumpable Blocks\ItemBrickBlock.cs" />
+    <Compile Include="Game Objects\Blocks\Bumpable Blocks\ItemContainingBlock.cs" />
+    <Compile Include="Game Objects\Blocks\Bumpable Blocks\NonPowerUpQuestionBlock.cs" />
+    <Compile Include="Game Objects\Blocks\Bumpable Blocks\PowerUpQuestionBlock.cs" />
+    <Compile Include="Game Objects\Blocks\Destroyable Blocks\BrickBlock.cs" />
+    <Compile Include="Game Objects\Blocks\Destroyable Blocks\DestroyableBlock.cs" />
+    <Compile Include="Game Objects\Blocks\NonBumpable Blocks\Collection Blocks\BrickCollectionBlock.cs" />
+    <Compile Include="Game Objects\Blocks\NonBumpable Blocks\Collection Blocks\CollectionBlock.cs" />
+    <Compile Include="Game Objects\Blocks\NonBumpable Blocks\Collection Blocks\FloorBlock.cs" />
+    <Compile Include="Game Objects\Blocks\NonBumpable Blocks\Collection Blocks\StairBlock.cs" />
+    <Compile Include="Game Objects\Blocks\NonBumpable Blocks\DebrisBlock.cs" />
+    <Compile Include="Game Objects\Blocks\NonBumpable Blocks\NonBumpableBlock.cs" />
+    <Compile Include="Game Objects\Blocks\NonBumpable Blocks\Pipes\HorizontalGreenPipe.cs" />
+    <Compile Include="Game Objects\Blocks\NonBumpable Blocks\Pipes\LargeGreenPipeShaft.cs" />
+    <Compile Include="Game Objects\Blocks\NonBumpable Blocks\Pipes\LargeVerticalGreenPipe.cs" />
+    <Compile Include="Game Objects\Blocks\NonBumpable Blocks\Pipes\MediumVerticalGreenPipe.cs" />
+    <Compile Include="Game Objects\Blocks\NonBumpable Blocks\Pipes\Pipe.cs" />
+    <Compile Include="Game Objects\Blocks\NonBumpable Blocks\Pipes\SmallVerticalGreenPipe.cs" />
+    <Compile Include="Game Objects\Blocks\NonBumpable Blocks\UsedBlock.cs" />
+    <Compile Include="Game Objects\Enemies\Enemy.cs" />
+    <Compile Include="Game Objects\Enemies\Goomba.cs" />
+    <Compile Include="Game Objects\Enemies\Koopa.cs" />
+    <Compile Include="Game Objects\GameObject.cs" />
+    <Compile Include="Game Objects\Items\Item.cs" />
+    <Compile Include="Game Objects\Items\NonSpawning Items\CastleDoor.cs" />
+    <Compile Include="Game Objects\Items\NonSpawning Items\Flagpole.cs" />
+    <Compile Include="Game Objects\Items\NonSpawning Items\NonSpinningCoin.cs" />
+    <Compile Include="Game Objects\Items\NonSpawning Items\SpinningCoin.cs" />
+    <Compile Include="Game Objects\Items\Spawning Items\FireFlower.cs" />
+    <Compile Include="Game Objects\Items\Spawning Items\GreenMushroom.cs" />
+    <Compile Include="Game Objects\Items\Spawning Items\RedMushroom.cs" />
+    <Compile Include="Game Objects\Items\Spawning Items\SpawningItem.cs" />
+    <Compile Include="Game Objects\Items\Spawning Items\Star.cs" />
+    <Compile Include="Game Objects\KinematicGameObject.cs" />
+    <Compile Include="Game Objects\Players\Decorators\BlinkingMario.cs" />
+    <Compile Include="Game Objects\Players\Decorators\PlayerDecorator.cs" />
+    <Compile Include="Game Objects\Players\Decorators\StarMario.cs" />
+    <Compile Include="Game Objects\Players\Mario\Mario.cs" />
+    <Compile Include="Game Objects\Players\Player.cs" />
+    <Compile Include="Game Objects\Projectiles\Fireball.cs" />
+    <Compile Include="Game Objects\Projectiles\Projectile.cs" />
+    <Compile Include="Game Objects\Scenery\Overworld\LargeBush.cs" />
+    <Compile Include="Game Objects\Scenery\Overworld\LargeCloud.cs" />
+    <Compile Include="Game Objects\Scenery\Overworld\LargeHill.cs" />
+    <Compile Include="Game Objects\Scenery\Overworld\MediumBush.cs" />
+    <Compile Include="Game Objects\Scenery\Overworld\MediumCloud.cs" />
+    <Compile Include="Game Objects\Scenery\Overworld\SmallBush.cs" />
+    <Compile Include="Game Objects\Scenery\Overworld\SmallCastle.cs" />
+    <Compile Include="Game Objects\Scenery\Overworld\SmallCloud.cs" />
+    <Compile Include="Game Objects\Scenery\Overworld\SmallHill.cs" />
+    <Compile Include="Game Objects\Scenery\Scenery.cs" />
+    <Compile Include="Game States\DeadPlayerGameState.cs" />
+    <Compile Include="Game States\GameOverGameState.cs" />
+    <Compile Include="Game States\GameState.cs" />
+    <Compile Include="Game States\LivesLeftGameState.cs" />
+    <Compile Include="Game States\PausedGameState.cs" />
+    <Compile Include="Game States\PlayingGameState.cs" />
+    <Compile Include="Game States\TransitioningGameState.cs" />
+    <Compile Include="Game States\VictoryGameState.cs" />
+    <Compile Include="Game States\WarpingGameState.cs" />
+    <Compile Include="Game Statistics\CoinKeeper.cs" />
+    <Compile Include="Game Statistics\LifeKeeper.cs" />
+    <Compile Include="Game Statistics\ScoreKeeper.cs" />
+    <Compile Include="Game Statistics\StatManager.cs" />
+    <Compile Include="Game Statistics\Timer.cs" />
+    <Compile Include="Game1.cs" />
+    <Compile Include="HUD\Hud.cs" />
+    <Compile Include="Indicators\Indicator.cs" />
+    <Compile Include="Interfaces\Camera\ICamera.cs" />
+    <Compile Include="Interfaces\Camera\ICameraController.cs" />
+    <Compile Include="Interfaces\Collisions\ICollidable.cs" />
+    <Compile Include="Interfaces\Collisions\ICollision.cs" />
+    <Compile Include="Interfaces\Collisions\ICollisionManager.cs" />
+    <Compile Include="Interfaces\Collisions\ICollisionResponder.cs" />
+    <Compile Include="Interfaces\Game Object States\IBlockState.cs" />
+    <Compile Include="Interfaces\Game Object States\IEnemyState.cs" />
+    <Compile Include="Interfaces\Game Object States\IItemState.cs" />
+    <Compile Include="Interfaces\Game Object States\IProjectileState.cs" />
+    <Compile Include="Interfaces\Game Object States\Player States\IActionState.cs" />
+    <Compile Include="Interfaces\Game Object States\Player States\IPowerUpState.cs" />
+    <Compile Include="Interfaces\Game Objects\IBlock.cs" />
+    <Compile Include="Interfaces\Game Objects\IEnemy.cs" />
+    <Compile Include="Interfaces\Game Objects\IGameObject.cs" />
+    <Compile Include="Interfaces\Game Objects\IIndicator.cs" />
+    <Compile Include="Interfaces\Game Objects\IItem.cs" />
+    <Compile Include="Interfaces\Game Objects\IPipe.cs" />
+    <Compile Include="Interfaces\Game Objects\IPlayer.cs" />
+    <Compile Include="Interfaces\Game Objects\IProjectile.cs" />
+    <Compile Include="Interfaces\Game Objects\IScenery.cs" />
+    <Compile Include="Interfaces\ICommand.cs" />
+    <Compile Include="Interfaces\IController.cs" />
+    <Compile Include="Interfaces\IDrawable.cs" />
+    <Compile Include="Interfaces\IGameState.cs" />
+    <Compile Include="Interfaces\IHud.cs" />
+    <Compile Include="Interfaces\IItemContainer.cs" />
+    <Compile Include="Interfaces\IRigidBody.cs" />
+    <Compile Include="Interfaces\ISprite.cs" />
+    <Compile Include="Interfaces\ITransformable.cs" />
+    <Compile Include="Interfaces\IUpdatable.cs" />
+    <Compile Include="Interfaces\Level\ILevel.cs" />
+    <Compile Include="Interfaces\Level\ILevelGenerator.cs" />
+    <Compile Include="Level\Level Generator\GameObjectGenerator.cs" />
+    <Compile Include="Level\Level Generator\LevelGenerator.cs" />
+    <Compile Include="Level\Level.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sounds\BackgroundSongManager.cs" />
+    <Compile Include="Sounds\SoundManager.cs" />
+    <Compile Include="Sounds\SoundPlayer.cs" />
+    <Compile Include="Sprites\Sprite.cs" />
+    <Compile Include="TimedActionManager.cs" />
+    <Compile Include="Utility\Locations.cs" />
+    <Compile Include="Utility\Offsets.cs" />
+    <Compile Include="Utility\Physics.cs" />
+    <Compile Include="Utility\Strings.cs" />
+    <Compile Include="Utility\Timers.cs" />
+    <Compile Include="Utility\Utilities.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="MonoGame.Framework">
+      <HintPath>$(MonoGameInstallDirectory)\MonoGame\v3.0\Assemblies\Windows\MonoGame.Framework.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Icon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <MonoGameContentReference Include="Content\Content.mgcb" />
+    <None Include="app.config" />
+    <None Include="app.manifest" />
+    <None Include="Content\1-1.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\PointAllocators.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Points.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Songs.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\SoundEffectNames.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\SoundEffects.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\SpriteRegistrars.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Sprites.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Content\Textures.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\MonoGame\v3.0\MonoGame.Content.Builder.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

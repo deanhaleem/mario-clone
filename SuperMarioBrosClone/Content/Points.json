@@ -1,0 +1,33 @@
+{
+  "HandleTopEnemyBlockCollision": 100,
+  "HandleLeftEnemyShellCollision": 100,
+  "HandleRightEnemyShellCollision": 100,
+
+  "HandleDestroyingPlayerBlockCollision": 50,
+
+  "HandleTopPlayerEnemyCollision": 100,
+  "HandleFlippingPlayerEnemyCollision": 100,
+  "HandleDisarmingPlayerEnemyCollision": 100,
+  "HandleTopPlayerShellCollision": 100,
+  "HandleLeftPlayerShellCollision": 100,
+  "HandleRightPlayerShellCollision": 100,
+
+  "HandlePlayerFireFlowerCollision": 1000,
+  "HandlePlayerGreenMushroomCollision": 1000,
+  "HandlePlayerRedMushroomCollision": 1000,
+  "HandlePlayerNonSpinningCoinCollision": 200,
+  "HandlePlayerStarCollision": 1000,
+  "HandleNonUpgradingPlayerPowerUpCollision": 1000,
+  "HandleBlinkingPlayerRedMushroomCollision": 1000,
+  "HandleBlinkingPlayerFireFlowerCollision": 1000,
+  "HandleBlinkingPlayerStarCollision": 1000,
+  "HandlePlayerFlagpoleCollision": 10,
+  "SpinningCoin": 200,
+
+  "VictoryGameState": 50,
+
+  "GoombaFireball": 100,
+  "KoopaFireball": 200,
+  "FireballGoomba": 100,
+  "FireballKoopa": 200
+}

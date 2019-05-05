@@ -1,0 +1,8 @@
+{
+  "mario": "Sprite-Sheets/mario",
+  "enemies": "Sprite-Sheets/enemies",
+  "blocks": "Sprite-Sheets/blocksp-pipes",
+  "items": "Sprite-Sheets/Items-Projectiles",
+  "scenery": "Sprite-Sheets/background-pipes",
+  "extras": "Sprite-Sheets/Items-Extras"
+}
