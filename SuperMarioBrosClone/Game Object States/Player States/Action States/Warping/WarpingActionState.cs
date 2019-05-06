@@ -48,8 +48,6 @@ namespace SuperMarioBrosClone
             }
         }
 
-        public override void WarpDown(Vector2 location) { }
-        public override void WarpRight(Vector2 location) { }
-        public override void WarpUp() { }
+        public override void Warp(Vector2 location, Vector2 velocity) { }
     }
 }
