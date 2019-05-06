@@ -1,7 +1,8 @@
 {
   "LivesLeftGameStateMario": "SmallRightStandingMario",
 
-  "DeadPowerUpStateDeadActionStateMario": "DeadMario",
+  "DeadPowerUpStateRightDeadActionStateMario": "DeadMario",
+  "DeadPowerUpStateLeftDeadActionStateMario": "DeadMario",
   "StarMarioDeadPowerUpStateDeadActionStateMario": "DeadMario",
 
   "BigPowerUpStateRightCrouchingActionStateMario": "BigRightCrouchingMario",
@@ -180,18 +181,25 @@
   "SmallCloud": "SmallCloud",
   "SmallCastle": "SmallCastle",
 
-  "SleepingEnemyStateGoomba": "WalkingGoomba",
+  "LeftSleepingEnemyStateGoomba": "WalkingGoomba",
+  "RightSleepingEnemyStateGoomba": "WalkingGoomba",
   "LeftWalkingEnemyStateGoomba": "WalkingGoomba",
   "RightWalkingEnemyStateGoomba": "WalkingGoomba",
-  "StompedEnemyStateGoomba": "StompedGoomba",
-  "FlippedEnemyStateGoomba": "FlippedGoomba",
+  "LeftStompedEnemyStateGoomba": "StompedGoomba",
+  "RightStompedEnemyStateGoomba": "StompedGoomba",
+  "LeftFlippedEnemyStateGoomba": "FlippedGoomba",
+  "RightFlippedEnemyStateGoomba": "FlippedGoomba",
 
-  "SleepingEnemyStateKoopa": "LeftWalkingKoopa",
+  "LeftSleepingEnemyStateKoopa": "LeftWalkingKoopa",
+  "RightSleepingEnemyStateKoopa": "LeftWalkingKoopa",
   "LeftWalkingEnemyStateKoopa": "LeftWalkingKoopa",
   "RightWalkingEnemyStateKoopa": "RightWalkingKoopa",
-  "StompedEnemyStateKoopa": "StompedKoopa",
-  "ShellEnemyStateKoopa": "StompedKoopa",
-  "FlippedEnemyStateKoopa": "FlippedKoopa",
+  "LeftStompedEnemyStateKoopa": "StompedKoopa",
+  "RightStompedEnemyStateKoopa": "StompedKoopa",
+  "LeftShellEnemyStateKoopa": "StompedKoopa",
+  "RightShellEnemyStateKoopa": "StompedKoopa",
+  "LeftFlippedEnemyStateKoopa": "FlippedKoopa",
+  "RightFlippedEnemyStateKoopa": "FlippedKoopa",
 
   "Fireball": "Fireball",
   "DestroyedProjectileStateFireball": "DestroyedFireball",

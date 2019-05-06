@@ -8,6 +8,8 @@ namespace SuperMarioBrosClone
         private readonly Color gameObjectColor;
         private ISprite gameObjectSprite;
 
+        protected virtual string SpriteName => GetType().Name;
+
         public Vector2 Location { get; set; }
 
         public virtual Rectangle HitBox
@@ -39,6 +41,11 @@ namespace SuperMarioBrosClone
         public virtual void SetSprite(string spriteName)
         {
             gameObjectSprite = SpriteFactory.Instance.CreateSprite(spriteName);
+        }
+
+        protected virtual void SetSprite()
+        {
+            gameObjectSprite = SpriteFactory.Instance.CreateSprite(SpriteName);
         }
     }
 }

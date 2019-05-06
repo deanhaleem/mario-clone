@@ -6,13 +6,15 @@ namespace SuperMarioBrosClone
     {
         private IEnemyState enemyState;
 
-        public virtual IEnemyState EnemyState
+        protected override string SpriteName => Direction + enemyState.GetType().Name + GetType().Name;
+
+        public IEnemyState EnemyState
         {
             get => enemyState;
             set
             {
                 enemyState = value;
-                SetSprite(enemyState.GetType().Name + GetType().Name);
+                SetSprite();
             }
         }
 
@@ -20,7 +22,7 @@ namespace SuperMarioBrosClone
         {
             this.enemyState = new SleepingEnemyState(this);
 
-            base.SetSprite(enemyState.GetType().Name + GetType().Name);
+            base.Direction = Directions.Left;
         }
 
         public override void Update(GameTime gameTime)
@@ -28,13 +30,6 @@ namespace SuperMarioBrosClone
             enemyState.Update(gameTime);
 
             base.Update(gameTime);
-        }
-
-        public override void ChangeDirection()
-        {
-            EnemyState.ChangeDirection();
-
-            base.ChangeDirection();
         }
 
         public virtual void Stomp()

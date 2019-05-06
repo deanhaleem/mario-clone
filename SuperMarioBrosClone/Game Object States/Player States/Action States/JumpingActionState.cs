@@ -2,9 +2,9 @@
 
 namespace SuperMarioBrosClone
 {
-    internal class LeftJumpingActionState : LeftAerialActionState
+    internal class JumpingActionState : AerialActionState
     {
-        public LeftJumpingActionState(IPlayer player) : base(player)
+        public JumpingActionState(IPlayer player) : base(player)
         {
             base.Player.ApplyForce(Physics.PlayerJumpingGravitationalForce + new Vector2(Player.Acceleration.X, 0));
 
@@ -20,7 +20,7 @@ namespace SuperMarioBrosClone
         {
             if (Player.Velocity.Y >= 0)
             {
-                Player.ActionState = new LeftFallingActionState(Player);
+                Player.ActionState = new FallingActionState(Player);
             }
 
             base.Update(gameTime);

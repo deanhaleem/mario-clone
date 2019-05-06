@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System;
+using Microsoft.Xna.Framework;
 
 namespace SuperMarioBrosClone
 {
@@ -7,11 +8,22 @@ namespace SuperMarioBrosClone
         private Vector2 velocity;
         private Vector2 acceleration;
         private Vector2 maxVelocity;
+        private Directions direction;
 
         public virtual Rectangle ExtendedHitBox =>
             new Rectangle(base.HitBox.X, base.HitBox.Y, base.HitBox.Width, base.HitBox.Height + Offsets.ExtendedHeightOffset);
 
         public virtual Vector2 Acceleration => acceleration;
+
+        public Directions Direction
+        {
+            get => direction;
+            set
+            {
+                direction = value;
+                SetSprite();
+            }
+        }
 
         public virtual Vector2 Velocity
         {
@@ -39,6 +51,7 @@ namespace SuperMarioBrosClone
         protected KinematicGameObject(Vector2 location, Color color, Vector2 maxVelocity) : base(location, color)
         {
             this.maxVelocity = maxVelocity;
+            this.direction = Directions.Right;
         }
 
         public override void Update(GameTime gameTime)
@@ -85,6 +98,7 @@ namespace SuperMarioBrosClone
         {
             velocity.X *= -1;
             acceleration.X *= -1;
+            Direction = (Directions) (velocity.X / Math.Abs(velocity.X));
         }
 
         public virtual void SetMaxVelocity(Vector2 updatedMaxVelocity)

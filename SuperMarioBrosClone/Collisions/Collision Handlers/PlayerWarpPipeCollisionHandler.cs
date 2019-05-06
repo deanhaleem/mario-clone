@@ -32,7 +32,7 @@ namespace SuperMarioBrosClone
 
         public void HandleRightPlayerWarpPipeCollision()
         {
-            if (player.ActionState is RightRunningActionState || player.ActionState is RightWalkingActionState)
+            if (player.Direction == Directions.Right && (player.ActionState is RunningActionState || player.ActionState is WalkingActionState))
             {
                 if (player is BlinkingMario mario)
                 {

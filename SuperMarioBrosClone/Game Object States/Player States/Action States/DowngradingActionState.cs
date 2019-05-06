@@ -1,15 +1,15 @@
 ﻿namespace SuperMarioBrosClone
 {
-    internal class RightDowngradingActionState : TransformingActionState
+    internal class DowngradingActionState : TransformingActionState
     {
-        public RightDowngradingActionState(IPlayer player) : base(player, Timers.PlayerDowngradeTimer)
+        public DowngradingActionState(IPlayer player) : base(player, Timers.PlayerDowngradeTimer)
         {
 
         }
 
         protected override void SetStateAfterTransformation()
         {
-            Player.ActionState = new RightStandingActionState(Player);
+            Player.ActionState = new StandingActionState(Player);
 
             base.SetStateAfterTransformation();
 

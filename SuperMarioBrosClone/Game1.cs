@@ -92,11 +92,6 @@ namespace SuperMarioBrosClone
             GameState.Pause();
         }
 
-        public void LoseLife()
-        {
-            GameState.LoseLife();
-        }
-
         public void Transition()
         {
             GameState.Transition();

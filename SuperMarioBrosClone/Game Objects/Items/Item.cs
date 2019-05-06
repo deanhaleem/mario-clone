@@ -8,12 +8,13 @@ namespace SuperMarioBrosClone
 
         protected Item(Vector2 location, Color color) : base(location, color, Physics.MaxItemVelocity)
         {
-            base.SetSprite(GetType().Name);
+            base.Direction = Directions.Right;
         }
 
         public override void Update(GameTime gameTime)
         {
             ItemState.Update(gameTime);
+
             base.Update(gameTime);
         }
     }

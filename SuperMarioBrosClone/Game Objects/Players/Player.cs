@@ -6,6 +6,9 @@ namespace SuperMarioBrosClone
     {
         private IActionState playerActionState;
 
+        protected override string SpriteName =>
+            PowerUpState.GetType().Name + Direction + playerActionState.GetType().Name + GetType().Name;
+
         public bool CanWarp { get; set; }
         public IPowerUpState PowerUpState { get; set; }
 
@@ -15,7 +18,7 @@ namespace SuperMarioBrosClone
             set
             {
                 playerActionState = value;
-                SetSprite(PowerUpState.GetType().Name + playerActionState.GetType().Name + GetType().Name);
+                SetSprite();
             }
         }
 

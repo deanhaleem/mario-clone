@@ -8,7 +8,7 @@ namespace SuperMarioBrosClone
 
         protected Block(Vector2 location, Color color) : base(location, color)
         {
-            base.SetSprite(GetType().Name);
+            base.SetSprite();
         }
 
         public override void Update(GameTime gameTime)

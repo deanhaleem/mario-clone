@@ -20,17 +20,17 @@ namespace SuperMarioBrosClone
             int count = timedActions.Count;
             for (int i = 0; i < count && timedActions.Count > 0; i++)
             {
-                (var TimedAction, var PostTimedAction, float Time) = timedActions.Dequeue();
+                (var timedAction, var postTimedAction, float time) = timedActions.Dequeue();
 
-                float updatedTime = Time - (float)gameTime.ElapsedGameTime.TotalSeconds;
+                float updatedTime = time - (float)gameTime.ElapsedGameTime.TotalSeconds;
                 if (updatedTime <= 0)
                 {
-                    PostTimedAction();
+                    postTimedAction();
                 }
                 else
                 {
-                    TimedAction?.Invoke(updatedTime);
-                    timedActions.Enqueue((TimedAction, PostTimedAction, updatedTime));
+                    timedAction?.Invoke(updatedTime);
+                    timedActions.Enqueue((timedAction, postTimedAction, updatedTime));
                 }
             }
         }

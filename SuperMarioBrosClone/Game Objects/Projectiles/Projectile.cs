@@ -1,4 +1,5 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System;
+using Microsoft.Xna.Framework;
 
 namespace SuperMarioBrosClone
 {
@@ -12,7 +13,7 @@ namespace SuperMarioBrosClone
             this.ProjectileState = new ActiveProjectileState(this);
 
             base.ApplyImpulse(initialVelocity);
-            base.SetSprite(GetType().Name);
+            base.Direction = (Directions) (initialVelocity.X / Math.Abs(initialVelocity.X));
         }
 
         public override void Update(GameTime gameTime)

@@ -34,7 +34,7 @@ namespace SuperMarioBrosClone
             warpTimer += speed;
             if (warpTimer >= warpTime)
             {
-                Player.ActionState = new RightStandingActionState(Player);
+                Player.ActionState = new StandingActionState(Player);
                 Game1.Instance.RegisterGameObject(Player);
                 if (warpLocation != Vector2.Zero)
                 {

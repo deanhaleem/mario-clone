@@ -34,7 +34,7 @@ namespace SuperMarioBrosClone
 
         public override void Update(GameTime gameTime)
         {
-            foreach (IController controller in controllers)
+            foreach (var controller in controllers)
             {
                 controller.Update();
             }

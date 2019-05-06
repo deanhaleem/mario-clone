@@ -23,6 +23,7 @@ namespace SuperMarioBrosClone
         protected IPlayer DecoratedPlayer { get; }
 
         public new Vector2 Location { get => DecoratedPlayer.Location; set => DecoratedPlayer.Location = value; }
+        public new Directions Direction { get => DecoratedPlayer.Direction; set => DecoratedPlayer.Direction = value; }
         public override Rectangle HitBox => DecoratedPlayer.HitBox;
         public override Rectangle ExtendedHitBox => ((KinematicGameObject) DecoratedPlayer).ExtendedHitBox;
         public override Vector2 Velocity => DecoratedPlayer.Velocity;
@@ -140,9 +141,9 @@ namespace SuperMarioBrosClone
             DecoratedPlayer.WinLevel();
         }
 
-        public override void SetSprite(string sprite)
+        public override void SetSprite(string spriteName)
         {
-            DecoratedPlayer.SetSprite(sprite);
+            DecoratedPlayer.SetSprite(spriteName);
         }
 
         public override void ApplyImpulse(Vector2 impulse)

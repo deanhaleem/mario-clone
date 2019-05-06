@@ -10,7 +10,7 @@
         public override void WakeUp()
         {
             Enemy.ApplyImpulse(Physics.EnemyWakeUpImpulse);
-            Enemy.EnemyState = new LeftWalkingEnemyState(Enemy);
+            Enemy.EnemyState = new WalkingEnemyState(Enemy);
         }
     }
 }

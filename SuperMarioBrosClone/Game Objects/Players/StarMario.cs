@@ -14,7 +14,7 @@ namespace SuperMarioBrosClone
             {
                 DecoratedPlayer.ActionState = value;
                 starMarioSprite = SpriteFactory.Instance.CreateSprite(
-                    GetType().Name + DecoratedPlayer.PowerUpState.GetType().Name +
+                    GetType().Name + DecoratedPlayer.PowerUpState.GetType().Name + DecoratedPlayer.Direction +
                     DecoratedPlayer.ActionState.GetType().Name + DecoratedPlayer.GetType().Name);
             }
         }
@@ -22,7 +22,7 @@ namespace SuperMarioBrosClone
         public StarMario(IPlayer player) : base(player, Color.White, Timers.StarTimer)
         {
             starMarioSprite = SpriteFactory.Instance.CreateSprite(
-                GetType().Name + DecoratedPlayer.PowerUpState.GetType().Name +
+                GetType().Name + DecoratedPlayer.PowerUpState.GetType().Name + DecoratedPlayer.Direction +
                 DecoratedPlayer.ActionState.GetType().Name + DecoratedPlayer.GetType().Name);
 
             SoundManager.Instance.StopSong();

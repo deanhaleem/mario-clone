@@ -2,9 +2,9 @@
 
 namespace SuperMarioBrosClone
 {
-    internal abstract class RightAerialActionState : RightActionState
+    internal abstract class AerialActionState : ActionState
     {
-        protected RightAerialActionState(IPlayer player) : base(player)
+        protected AerialActionState(IPlayer player) : base(player)
         {
 
         }

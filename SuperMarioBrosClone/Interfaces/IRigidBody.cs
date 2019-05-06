@@ -2,11 +2,14 @@
 
 namespace SuperMarioBrosClone
 {
+    public enum Directions { Left = -1, Right = 1 }
+
     public interface IRigidBody : ICollidable
     {
         Rectangle ExtendedHitBox { get; }
         Vector2 Velocity { get; }
         Vector2 Acceleration { get; }
+        Directions Direction { get; set; }
         void ApplyImpulse(Vector2 impulse);
         void ApplyForce(Vector2 force);
         void CutXVelocity();

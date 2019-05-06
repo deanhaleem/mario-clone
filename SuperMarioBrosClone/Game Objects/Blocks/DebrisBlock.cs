@@ -8,7 +8,7 @@ namespace SuperMarioBrosClone
         {
             base.ApplyImpulse(impulse);
             base.ApplyForce(Physics.GravitationalForce);
-            base.SetSprite(GetType().Name);
+            base.Direction = (Directions) (impulse.X / impulse.X);
         }
     }
 }

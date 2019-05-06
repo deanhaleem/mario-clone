@@ -20,7 +20,7 @@ namespace SuperMarioBrosClone
         {
             player.Location -= new Vector2(0, collision.Intersection.Height);
 
-            if (player.ActionState is RightFallingActionState || player.ActionState is LeftFallingActionState)
+            if (player.ActionState is FallingActionState)
             {
                 player.Land();
                 player.CutYVelocity();
@@ -33,7 +33,7 @@ namespace SuperMarioBrosClone
         {
             player.Location += new Vector2(0, collision.Intersection.Height);
 
-            if (player.ActionState is RightJumpingActionState || player.ActionState is LeftJumpingActionState)
+            if (player.ActionState is JumpingActionState)
             {
                 player.Location += new Vector2(0, collision.Intersection.Height);
                 player.ApplyImpulse(Physics.BlockBumpForce - new Vector2(0, player.Velocity.Y));
@@ -67,7 +67,7 @@ namespace SuperMarioBrosClone
         {
             player.Location += new Vector2(0, collision.Intersection.Height);
 
-            if (player.ActionState is RightJumpingActionState || player.ActionState is LeftJumpingActionState)
+            if (player.ActionState is JumpingActionState)
             {
                 player.ApplyImpulse(Physics.BlockBumpForce - new Vector2(0, player.Velocity.Y));
                 ((IItemContainer) block).ItemType = typeof(FireFlower);
@@ -81,7 +81,7 @@ namespace SuperMarioBrosClone
         {
             player.Location += new Vector2(0, collision.Intersection.Height);
 
-            if (player.ActionState is RightJumpingActionState || player.ActionState is LeftJumpingActionState)
+            if (player.ActionState is JumpingActionState)
             {
                 player.ApplyImpulse(Physics.BlockBumpForce - new Vector2(0, player.Velocity.Y));
                 block.Bump();
@@ -94,7 +94,7 @@ namespace SuperMarioBrosClone
         {
             player.Location += new Vector2(0, collision.Intersection.Height);
 
-            if (player.ActionState is RightJumpingActionState || player.ActionState is LeftJumpingActionState)
+            if (player.ActionState is JumpingActionState)
             {
                 player.ApplyImpulse(Physics.BlockBumpForce - new Vector2(0, player.Velocity.Y));
                 block.Destroy();
@@ -110,7 +110,7 @@ namespace SuperMarioBrosClone
             {
                 player.Location -= new Vector2(0, collision.Intersection.Height);
 
-                if (player.ActionState is RightFallingActionState || player.ActionState is LeftFallingActionState)
+                if (player.ActionState is FallingActionState)
                 {
                     player.Land();
                     player.CutYVelocity();
@@ -124,7 +124,7 @@ namespace SuperMarioBrosClone
         {
             if (!(player.ActionState is WarpingActionState))
             {
-                if (player.ActionState is RightJumpingActionState || player.ActionState is LeftJumpingActionState)
+                if (player.ActionState is JumpingActionState)
                 {
                     player.Location += new Vector2(0, collision.Intersection.Height);
                     player.ApplyImpulse(Physics.BlockBumpForce - new Vector2(0, player.Velocity.Y));

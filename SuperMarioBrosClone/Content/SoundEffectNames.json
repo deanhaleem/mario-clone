@@ -27,19 +27,14 @@
   "CreateRightProjectile": "fireball",
   "CreateLeftProjectile": "fireball",
 
-  "SmallPowerUpStateLeftJumpingActionState": "small-jump",
-  "SmallPowerUpStateRightJumpingActionState": "small-jump",
-  "BigPowerUpStateLeftJumpingActionState": "super-jump",
-  "BigPowerUpStateRightJumpingActionState": "super-jump",
-  "FirePowerUpStateLeftJumpingActionState": "super-jump",
-  "FirePowerUpStateRightJumpingActionState": "super-jump",
+  "SmallPowerUpStateJumpingActionState": "small-jump",
+  "BigPowerUpStateJumpingActionState": "super-jump",
+  "FirePowerUpStateJumpingActionState": "super-jump",
 
   "DeadActionState": "die",
 
-  "LeftDowngradingActionState": "pipe",
-  "RightDowngradingActionState": "pipe",
-  "LeftUpgradingActionState": "powerup",
-  "RightUpgradingActionState": "powerup",
+  "DowngradingActionState": "pipe",
+  "UpgradingActionState": "powerup",
 
   "PausedGameState": "pause",
   "WarpingGameState": "pipe",

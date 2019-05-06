@@ -23,31 +23,15 @@ namespace SuperMarioBrosClone
         {
             this.enemyEnemyCollisionCommands = new Dictionary<(Type, Type, Type), ConstructorInfo>
             {
-                { (typeof(LeftWalkingEnemyState), typeof(RightWalkingEnemyState), typeof(TopCollision)), typeof(PushEnemyDownOtherUpCommand).GetConstructors()[0] },
-                { (typeof(LeftWalkingEnemyState), typeof(RightWalkingEnemyState), typeof(BottomCollision)), typeof(PushEnemyUpOtherDownCommand).GetConstructors()[0] },
-                { (typeof(LeftWalkingEnemyState), typeof(RightWalkingEnemyState), typeof(LeftCollision)), typeof(PushEnemyRightOtherLeftCommand).GetConstructors()[0] },
-                { (typeof(LeftWalkingEnemyState), typeof(RightWalkingEnemyState), typeof(RightCollision)), typeof(PushEnemyLeftOtherRightCommand).GetConstructors()[0] },
+                { (typeof(WalkingEnemyState), typeof(WalkingEnemyState), typeof(TopCollision)), typeof(PushEnemyDownOtherUpCommand).GetConstructors()[0] },
+                { (typeof(WalkingEnemyState), typeof(WalkingEnemyState), typeof(BottomCollision)), typeof(PushEnemyUpOtherDownCommand).GetConstructors()[0] },
+                { (typeof(WalkingEnemyState), typeof(WalkingEnemyState), typeof(LeftCollision)), typeof(PushEnemyRightOtherLeftCommand).GetConstructors()[0] },
+                { (typeof(WalkingEnemyState), typeof(WalkingEnemyState), typeof(RightCollision)), typeof(PushEnemyLeftOtherRightCommand).GetConstructors()[0] },
 
-                { (typeof(RightWalkingEnemyState), typeof(LeftWalkingEnemyState), typeof(TopCollision)), typeof(PushEnemyDownOtherUpCommand).GetConstructors()[0] },
-                { (typeof(RightWalkingEnemyState), typeof(LeftWalkingEnemyState), typeof(BottomCollision)), typeof(PushEnemyUpOtherDownCommand).GetConstructors()[0] },
-                { (typeof(RightWalkingEnemyState), typeof(LeftWalkingEnemyState), typeof(LeftCollision)), typeof(PushEnemyRightOtherLeftCommand).GetConstructors()[0] },
-                { (typeof(RightWalkingEnemyState), typeof(LeftWalkingEnemyState), typeof(RightCollision)), typeof(PushEnemyLeftOtherRightCommand).GetConstructors()[0] },
-
-                { (typeof(LeftWalkingEnemyState), typeof(LeftWalkingEnemyState), typeof(TopCollision)), typeof(PushEnemyDownOtherUpCommand).GetConstructors()[0] },
-                { (typeof(LeftWalkingEnemyState), typeof(LeftWalkingEnemyState), typeof(BottomCollision)), typeof(PushEnemyUpOtherDownCommand).GetConstructors()[0] },
-
-                { (typeof(RightWalkingEnemyState), typeof(RightWalkingEnemyState), typeof(TopCollision)), typeof(PushEnemyDownOtherUpCommand).GetConstructors()[0] },
-                { (typeof(RightWalkingEnemyState), typeof(RightWalkingEnemyState), typeof(BottomCollision)), typeof(PushEnemyUpOtherDownCommand).GetConstructors()[0] },
-
-                { (typeof(LeftWalkingEnemyState), typeof(ShellEnemyState), typeof(TopCollision)), typeof(PushEnemyDownOtherUpCommand).GetConstructors()[0] },
-                { (typeof(LeftWalkingEnemyState), typeof(ShellEnemyState), typeof(BottomCollision)), typeof(PushEnemyUpOtherDownCommand).GetConstructors()[0] },
-                { (typeof(LeftWalkingEnemyState), typeof(ShellEnemyState), typeof(LeftCollision)), typeof(PushRightOrKillEnemyCommand).GetConstructors()[0] },
-                { (typeof(LeftWalkingEnemyState), typeof(ShellEnemyState), typeof(RightCollision)), typeof(PushLeftOrKillEnemyCommand).GetConstructors()[0] },
-
-                { (typeof(RightWalkingEnemyState), typeof(ShellEnemyState), typeof(TopCollision)), typeof(PushEnemyDownOtherUpCommand).GetConstructors()[0] },
-                { (typeof(RightWalkingEnemyState), typeof(ShellEnemyState), typeof(BottomCollision)), typeof(PushEnemyUpOtherDownCommand).GetConstructors()[0] },
-                { (typeof(RightWalkingEnemyState), typeof(ShellEnemyState), typeof(LeftCollision)), typeof(PushRightOrKillEnemyCommand).GetConstructors()[0] },
-                { (typeof(RightWalkingEnemyState), typeof(ShellEnemyState), typeof(RightCollision)), typeof(PushLeftOrKillEnemyCommand).GetConstructors()[0] },
+                { (typeof(WalkingEnemyState), typeof(ShellEnemyState), typeof(TopCollision)), typeof(PushEnemyDownOtherUpCommand).GetConstructors()[0] },
+                { (typeof(WalkingEnemyState), typeof(ShellEnemyState), typeof(BottomCollision)), typeof(PushEnemyUpOtherDownCommand).GetConstructors()[0] },
+                { (typeof(WalkingEnemyState), typeof(ShellEnemyState), typeof(LeftCollision)), typeof(PushRightOrKillEnemyCommand).GetConstructors()[0] },
+                { (typeof(WalkingEnemyState), typeof(ShellEnemyState), typeof(RightCollision)), typeof(PushLeftOrKillEnemyCommand).GetConstructors()[0] },
 
                 { (typeof(SleepingEnemyState), typeof(ShellEnemyState), typeof(TopCollision)), typeof(PushEnemyDownOtherUpCommand).GetConstructors()[0] },
                 { (typeof(SleepingEnemyState), typeof(ShellEnemyState), typeof(BottomCollision)), typeof(PushEnemyUpOtherDownCommand).GetConstructors()[0] },
