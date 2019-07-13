@@ -1,5 +1,13 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using SuperMarioBrosClone.Audio;
+using SuperMarioBrosClone.Collisions;
+using SuperMarioBrosClone.Display;
+using SuperMarioBrosClone.GameObjects;
+using SuperMarioBrosClone.GameStates;
+using SuperMarioBrosClone.Graphics;
+using SuperMarioBrosClone.Levels;
+using SuperMarioBrosClone.Statistics;
 
 namespace SuperMarioBrosClone
 {

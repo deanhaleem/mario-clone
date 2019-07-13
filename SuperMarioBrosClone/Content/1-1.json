@@ -1,6 +1,7 @@
 {
   "Mario": {
     "Type": "CreateSingleGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Players",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255}
     ],
@@ -11,6 +12,7 @@
 
   "Goomba": {
     "Type": "CreateSingleGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Enemies",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255},
       {"R": 255, "G": 255, "B": 255, "A": 255},
@@ -55,6 +57,7 @@
 
   "Koopa": {
     "Type": "CreateSingleGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Enemies",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255},
       {"R": 255, "G": 255, "B": 255, "A": 255},
@@ -69,6 +72,7 @@
 
   "HiddenBlock": {
     "Type": "CreateItemContainerGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Blocks",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255},
       {"R": 255, "G": 255, "B": 255, "A": 255},
@@ -88,6 +92,7 @@
 
   "ItemBrickBlock": {
     "Type": "CreateItemContainerGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Blocks",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255},
       {"R": 255, "G": 255, "B": 255, "A": 255},
@@ -110,6 +115,7 @@
 
   "BrickBlock": {
     "Type": "CreateSingleGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Blocks",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255},
       {"R": 255, "G": 255, "B": 255, "A": 255},
@@ -200,6 +206,7 @@
 
   "PowerUpQuestionBlock": {
     "Type": "CreateItemContainerGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Blocks",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255},
       {"R": 255, "G": 255, "B": 255, "A": 255},
@@ -231,6 +238,7 @@
 
   "NonPowerUpQuestionBlock": {
     "Type": "CreateItemContainerGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Blocks",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255},
       {"R": 255, "G": 255, "B": 255, "A": 255},
@@ -277,6 +285,7 @@
 
   "FloorBlock": {
     "Type": "CreateCollectionGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Blocks",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255},
       {"R": 255, "G": 255, "B": 255, "A": 255},
@@ -305,6 +314,7 @@
 
   "StairBlock": {
     "Type": "CreateCollectionGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Blocks",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255},
       {"R": 255, "G": 255, "B": 255, "A": 255},
@@ -390,6 +400,7 @@
 
   "BrickCollectionBlock": {
     "Type": "CreateCollectionGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Blocks",
     "Colors": [
       {"R": 64, "G": 224, "B": 208, "A": 255},
       {"R": 64, "G": 224, "B": 208, "A": 255},
@@ -409,6 +420,7 @@
 
   "SmallVerticalGreenPipe": {
     "Type": "CreatePipeGameObject",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Blocks",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255},
       {"R": 255, "G": 255, "B": 255, "A": 255},
@@ -434,6 +446,7 @@
 
   "MediumVerticalGreenPipe": {
     "Type": "CreatePipeGameObject",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Blocks",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255},
       {"R": 255, "G": 255, "B": 255, "A": 255}
@@ -448,6 +461,7 @@
 
   "LargeVerticalGreenPipe": {
     "Type": "CreatePipeGameObject",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Blocks",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255},
       {"R": 255, "G": 255, "B": 255, "A": 255}
@@ -464,6 +478,7 @@
 
   "HorizontalGreenPipe": {
     "Type": "CreatePipeGameObject",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Blocks",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255}
     ],
@@ -477,6 +492,7 @@
 
   "LargeGreenPipeShaft": {
     "Type": "CreateCollectionGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Blocks",
     "Colors": [
       {"R": 255,  "G": 255, "B": 255, "A": 255}
     ],
@@ -490,6 +506,7 @@
 
   "LargeHill": {
     "Type": "CreateNonCollidableGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Background",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255},
       {"R": 255, "G": 255, "B": 255, "A": 255},
@@ -510,6 +527,7 @@
 
   "SmallHill": {
     "Type": "CreateNonCollidableGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Background",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255},
       {"R": 255, "G": 255, "B": 255, "A": 255},
@@ -528,6 +546,7 @@
 
   "LargeBush": {
     "Type": "CreateNonCollidableGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Background",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255},
       {"R": 255, "G": 255, "B": 255, "A": 255},
@@ -548,6 +567,7 @@
 
   "MediumBush": {
     "Type": "CreateNonCollidableGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Background",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255},
       {"R": 255, "G": 255, "B": 255, "A": 255},
@@ -566,6 +586,7 @@
 
   "SmallBush": {
     "Type": "CreateNonCollidableGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Background",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255},
       {"R": 255, "G": 255, "B": 255, "A": 255},
@@ -586,6 +607,7 @@
 
   "LargeCloud": {
     "Type": "CreateNonCollidableGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Background",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255},
       {"R": 255, "G": 255, "B": 255, "A": 255},
@@ -606,6 +628,7 @@
 
   "MediumCloud": {
     "Type": "CreateNonCollidableGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Background",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255},
       {"R": 255, "G": 255, "B": 255, "A": 255},
@@ -624,6 +647,7 @@
 
   "SmallCloud": {
     "Type": "CreateNonCollidableGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Background",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255},
       {"R": 255, "G": 255, "B": 255, "A": 255},
@@ -658,6 +682,7 @@
 
   "SmallCastle": {
     "Type": "CreateNonCollidableGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Background",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255}
     ],
@@ -668,6 +693,7 @@
 
   "CastleDoor": {
     "Type": "CreateSingleGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Items",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255}
     ],
@@ -678,6 +704,7 @@
 
   "Flagpole": {
     "Type": "CreateSingleGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Items",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255}
     ],
@@ -688,6 +715,7 @@
 
   "NonSpinningCoin": {
     "Type": "CreateSingleGameObjects",
+    "Namespace": "SuperMarioBrosClone.GameObjects.Items",
     "Colors": [
       {"R": 255, "G": 255, "B": 255, "A": 255},
       {"R": 255, "G": 255, "B": 255, "A": 255},

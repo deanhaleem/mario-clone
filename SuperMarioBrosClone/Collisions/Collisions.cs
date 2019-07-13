@@ -1,7 +1,8 @@
 ﻿using Microsoft.Xna.Framework;
 using System;
+using SuperMarioBrosClone.GameObjects;
 
-namespace SuperMarioBrosClone
+namespace SuperMarioBrosClone.Collisions
 {
     internal static class Collisions
     {

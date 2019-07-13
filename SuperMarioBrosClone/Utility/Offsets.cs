@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
 
-namespace SuperMarioBrosClone
+namespace SuperMarioBrosClone.Utility
 {
     internal static class Offsets
     {

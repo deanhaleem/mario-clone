@@ -1,4 +1,4 @@
-﻿namespace SuperMarioBrosClone
+﻿namespace SuperMarioBrosClone.Utility
 {
     internal static class Timers
     {
